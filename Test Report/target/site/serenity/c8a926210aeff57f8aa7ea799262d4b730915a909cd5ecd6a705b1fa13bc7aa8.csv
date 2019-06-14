@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Validate error meaasage in sub tier page","Date field expection","ERROR","2019-03-15T16:07:55.548-04:00[America/New_York]","0.0","35.54"
+"Validate error meaasage in create department and sub tier page","Submit subTier without filling value","ERROR","2019-03-15T16:25:26.001-04:00[America/New_York]","0.0","22.43"
+"Validate error meaasage in create department and sub tier page","Submit subTier by filling value","ERROR","2019-03-15T16:26:14.755-04:00[America/New_York]","0.0","8.77"

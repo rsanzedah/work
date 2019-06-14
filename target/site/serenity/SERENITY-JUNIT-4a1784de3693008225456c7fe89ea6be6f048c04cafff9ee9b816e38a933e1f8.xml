@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="2" failures="0" name="High leavel Smoketing" skipped="0" tests="2" time="24.29" timestamp="2019-06-13 11:02:14"><testcase name="Log into the GSA website"><error message="session not created: This version of ChromeDriver only supports Chrome version 76&#10;Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'&#10;System info: host: 'I04TCC-GF3X120', ip: '172.28.16.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;&#9;Ordinal0 [0x00FC7B13+1473299]&#10;&#9;Ordinal0 [0x00F4AC61+961633]&#10;&#9;Ordinal0 [0x00ED41A3+475555]&#10;&#9;Ordinal0 [0x00E6F365+62309]&#10;&#9;Ordinal0 [0x00E6BC77+48247]&#10;&#9;Ordinal0 [0x00E88FD9+167897]&#10;&#9;Ordinal0 [0x00E88BAD+166829]&#10;&#9;Ordinal0 [0x00E872BB+160443]&#10;&#9;Ordinal0 [0x00E70AE6+68326]&#10;&#9;Ordinal0 [0x00E71A80+72320]&#10;&#9;Ordinal0 [0x00E71A19+72217]&#10;&#9;Ordinal0 [0x00F64A27+1067559]&#10;&#9;GetHandleVerifier [0x010666F5+506677]&#10;&#9;GetHandleVerifier [0x01066490+506064]&#10;&#9;GetHandleVerifier [0x0106D038+533624]&#10;&#9;GetHandleVerifier [0x01066ECA+508682]&#10;&#9;Ordinal0 [0x00F5C116+1032470]&#10;&#9;Ordinal0 [0x00F5BF8F+1032079]&#10;&#9;Ordinal0 [0x00F6693B+1075515]&#10;&#9;Ordinal0 [0x00F66AA3+1075875]&#10;&#9;Ordinal0 [0x00F65A55+1071701]&#10;&#9;BaseThreadInitThunk [0x760B8494+36]&#10;&#9;RtlAreBitsSet [0x773941C8+136]&#10;&#9;RtlAreBitsSet [0x77394198+88]&#10;&#10;Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'&#10;System info: host: 'I04TCC-GF3X120', ip: '172.28.16.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.SessionNotCreatedException">session not created: This version of ChromeDriver only supports Chrome version 76
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'I04TCC-GF3X120', ip: '172.28.16.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00FC7B13+1473299]
+	Ordinal0 [0x00F4AC61+961633]
+	Ordinal0 [0x00ED41A3+475555]
+	Ordinal0 [0x00E6F365+62309]
+	Ordinal0 [0x00E6BC77+48247]
+	Ordinal0 [0x00E88FD9+167897]
+	Ordinal0 [0x00E88BAD+166829]
+	Ordinal0 [0x00E872BB+160443]
+	Ordinal0 [0x00E70AE6+68326]
+	Ordinal0 [0x00E71A80+72320]
+	Ordinal0 [0x00E71A19+72217]
+	Ordinal0 [0x00F64A27+1067559]
+	GetHandleVerifier [0x010666F5+506677]
+	GetHandleVerifier [0x01066490+506064]
+	GetHandleVerifier [0x0106D038+533624]
+	GetHandleVerifier [0x01066ECA+508682]
+	Ordinal0 [0x00F5C116+1032470]
+	Ordinal0 [0x00F5BF8F+1032079]
+	Ordinal0 [0x00F6693B+1075515]
+	Ordinal0 [0x00F66AA3+1075875]
+	Ordinal0 [0x00F65A55+1071701]
+	BaseThreadInitThunk [0x760B8494+36]
+	RtlAreBitsSet [0x773941C8+136]
+	RtlAreBitsSet [0x77394198+88]
+
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'I04TCC-GF3X120', ip: '172.28.16.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown</error><system-err>session not created: This version of ChromeDriver only supports Chrome version 76
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'I04TCC-GF3X120', ip: '172.28.16.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00FC7B13+1473299]
+	Ordinal0 [0x00F4AC61+961633]
+	Ordinal0 [0x00ED41A3+475555]
+	Ordinal0 [0x00E6F365+62309]
+	Ordinal0 [0x00E6BC77+48247]
+	Ordinal0 [0x00E88FD9+167897]
+	Ordinal0 [0x00E88BAD+166829]
+	Ordinal0 [0x00E872BB+160443]
+	Ordinal0 [0x00E70AE6+68326]
+	Ordinal0 [0x00E71A80+72320]
+	Ordinal0 [0x00E71A19+72217]
+	Ordinal0 [0x00F64A27+1067559]
+	GetHandleVerifier [0x010666F5+506677]
+	GetHandleVerifier [0x01066490+506064]
+	GetHandleVerifier [0x0106D038+533624]
+	GetHandleVerifier [0x01066ECA+508682]
+	Ordinal0 [0x00F5C116+1032470]
+	Ordinal0 [0x00F5BF8F+1032079]
+	Ordinal0 [0x00F6693B+1075515]
+	Ordinal0 [0x00F66AA3+1075875]
+	Ordinal0 [0x00F65A55+1071701]
+	BaseThreadInitThunk [0x760B8494+36]
+	RtlAreBitsSet [0x773941C8+136]
+	RtlAreBitsSet [0x77394198+88]
+
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'I04TCC-GF3X120', ip: '172.28.16.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown&#13;
+oldpages.LaunchBrowserUtil.openThisBrowser(LaunchBrowserUtil.java:50)&#13;
+oldpages.SignInUtility.signIntoCommonWorkspaceWithLoginDotGov(SignInUtility.java:51)&#13;
+gov.gsa.sam.stepdefinition.FederalHierarchyStepDef.user_has_an_account_in_login_dot_gov_domain(FederalHierarchyStepDef.java:70)&#13;
+✽.user has an account in login dot gov domain(src/test/resources/smoke_features/federalHierarchy.feature:9)&#13;
+</system-err></testcase><testcase name="Create department"><error message="Unresolved compilation problems: &#10;&#9;scenario cannot be resolved to a variable&#10;&#9;scenario cannot be resolved to a variable&#10;" type="java.lang.Error">Unresolved compilation problems: 
+	scenario cannot be resolved to a variable
+	scenario cannot be resolved to a variable
+</error><system-err>Unresolved compilation problems: 
+	scenario cannot be resolved to a variable
+	scenario cannot be resolved to a variable
+&#13;
+gov.gsa.sam.stepdefinition.FederalHierarchyStepDef.User_click_on_above_Go_to_Federal_Hierarchy(FederalHierarchyStepDef.java:215)&#13;
+✽.User click on above Go to Federal Hierarchy(src/test/resources/smoke_features/federalHierarchy.feature:24)&#13;
+</system-err></testcase></testsuite>

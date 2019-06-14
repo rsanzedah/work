@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Create and Editing office" skipped="0" tests="4" time="227.91" timestamp="2019-03-20 11:05:07"><testcase name="Log into the GSA website as createDepartment"/><testcase name="My Workspace"/><testcase name="Create office"><failure message="expected:&lt;null&gt; but was:&lt;Shanthi Dutta&gt;" type="java.lang.AssertionError">expected:&lt;null&gt; but was:&lt;Shanthi Dutta&gt;</failure><system-err>expected:&lt;null&gt; but was:&lt;Shanthi Dutta&gt;&#13;
+gov.gsa.sam.stepdefinition.CreateOfficeStepDef.The_user_enters_POC_name(CreateOfficeStepDef.java:2457)&#13;
+✽.The user enters POC name Shanthi Dutta(src/test/resources/features/createOffice.feature:41)&#13;
+</system-err></testcase><testcase name="Department created browser sign out"/></testsuite>

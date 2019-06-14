@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="8" time="471.306593">
+<testcase classname="FeedBack" name="Submit the Provide feedback without filling the form from the home page" time="62.482335">
+<system-out><![CDATA[Given Environment COMP_HOME_PAGE............................................passed
+And Click on provide feed back button.......................................passed
+Then Check the three question...............................................passed
+Then user click on submit button............................................passed
+And Click on learning center link...........................................passed
+And Navigate into New to beta.SAM.gov page..................................passed
+And Browser close...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="FeedBack" name="Cancel the Provide feedback without filling the form from the home page" time="33.968047">
+<system-out><![CDATA[Given Environment COMP_HOME_PAGE............................................passed
+And Click on provide feed back button.......................................passed
+Then User click on cancel button............................................passed
+And Click on learning center link...........................................passed
+And Navigate into New to beta.SAM.gov page..................................passed
+And Browser close...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="FeedBack" name="Cancel the Provide feedback by filling one answer in the form from the home page" time="51.265591">
+<system-out><![CDATA[Given Environment COMP_HOME_PAGE............................................passed
+And Click on provide feed back button.......................................passed
+And User enter like or dislike about beta.sam.gov...........................passed
+Then User click on cancel button............................................passed
+And Click on learning center link...........................................passed
+Then Click cancel button in alert warning...................................passed
+And Click on learning center link...........................................passed
+Then Click on confirm button................................................passed
+And Navigate into New to beta.SAM.gov page..................................passed
+And Browser close...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="FeedBack" name="Provide feedback from the home page" time="40.440989">
+<system-out><![CDATA[Given Environment COMP_HOME_PAGE............................................passed
+And Click on provide feed back button.......................................passed
+And User enter like or dislike about beta.sam.gov...........................passed
+And User enter what change or improvements would you suggest................passed
+Then Check first radio button enabled.......................................passed
+And may we contact you if we have question about your feedback..............passed
+Then Check second radio button enabled......................................passed
+And User enter email id.....................................................passed
+Then user click on submit button............................................passed
+And Browser close...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="FeedBack" name="Submit provide feedback without filling one answer from the learning center" time="38.06828">
+<system-out><![CDATA[Given Environment COMP_HOME_PAGE............................................passed
+And Click on learning center link...........................................passed
+And Click on the provide feed back button...................................passed
+And User enter what change or improvements would you suggest................passed
+And may we contact you if we have question about your feedback..............passed
+And User enter email id.....................................................passed
+Then user click on submit button............................................passed
+And Browser close...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="FeedBack" name="confirm provide feedback from the learning center" time="118.555656">
+<system-out><![CDATA[Given Environment COMP_HOME_PAGE............................................passed
+And Click on learning center link...........................................passed
+And Click on the provide feed back button...................................passed
+And User enter like or dislike about beta.sam.gov...........................passed
+And User enter what change or improvements would you suggest................passed
+And may we contact you if we have question about your feedback..............passed
+And User enter email id.....................................................passed
+Then user click on submit button............................................passed
+And Browser close...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="FeedBack" name="Cancel the provide feedback from the learning center" time="107.853047">
+<system-out><![CDATA[Given Environment COMP_HOME_PAGE............................................passed
+And Click on learning center link...........................................passed
+And Click on the provide feed back button...................................passed
+And User enter like or dislike about beta.sam.gov...........................passed
+And User enter what change or improvements would you suggest................passed
+And may we contact you if we have question about your feedback..............passed
+And User enter email id.....................................................passed
+Then User click on cancel button............................................passed
+Then Check Warning you have feedback that has not been sumitted.............passed
+And Click on date sets link.................................................passed
+Then Click on confirm button................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="FeedBack" name="Click on Form Approved OMB#3090-0297 Exp. Date 07/31/2019 from Home page" time="18.672648">
+<system-out><![CDATA[Given Environment COMP_HOME_PAGE............................................passed
+And Click on learning center link...........................................passed
+And Click on the provide feed back button...................................passed
+Then Click on the provide feed back link....................................passed
+Then Navigate to policies page..............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CucumberTestSuite" project="rolemangement-selenium" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testsuite name="gov.gsa.sam.rms.stepdefinition.CucumberTestSuite" time="57.998">
+    <testsuite name="Feature: Role Request With Feeds" time="57.998">
+      <testcase name="role request comment update" classname="Role Request With Feeds" time="57.998">
+        <failure>java.lang.AssertionError&#13;
+	at org.junit.Assert.fail(Assert.java:86)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:41)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:52)&#13;
+	at gov.gsa.sam.rms.stepdefinition.RoleRequestStep._7_the_user_navigates_to_my_roles_page_to_request_contracting_officer_role(RoleRequestStep.java:396)&#13;
+	at ✽._7 the user navigates to my roles page to request contracting officer role(src/test/resources/features/RoleRequest.feature:76)&#13;
+&#13;
+</failure>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

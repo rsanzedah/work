@@ -1,0 +1,355 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>beta.SAM.gov | Home</title>
+  <base href="/" />
+  <style type="text/css">svg:not(:root).svg-inline--fa {
+  overflow: visible; }
+
+.svg-inline--fa {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -.125em; }
+  .svg-inline--fa.fa-lg {
+    vertical-align: -.225em; }
+  .svg-inline--fa.fa-w-1 {
+    width: 0.0625em; }
+  .svg-inline--fa.fa-w-2 {
+    width: 0.125em; }
+  .svg-inline--fa.fa-w-3 {
+    width: 0.1875em; }
+  .svg-inline--fa.fa-w-4 {
+    width: 0.25em; }
+  .svg-inline--fa.fa-w-5 {
+    width: 0.3125em; }
+  .svg-inline--fa.fa-w-6 {
+    width: 0.375em; }
+  .svg-inline--fa.fa-w-7 {
+    width: 0.4375em; }
+  .svg-inline--fa.fa-w-8 {
+    width: 0.5em; }
+  .svg-inline--fa.fa-w-9 {
+    width: 0.5625em; }
+  .svg-inline--fa.fa-w-10 {
+    width: 0.625em; }
+  .svg-inline--fa.fa-w-11 {
+    width: 0.6875em; }
+  .svg-inline--fa.fa-w-12 {
+    width: 0.75em; }
+  .svg-inline--fa.fa-w-13 {
+    width: 0.8125em; }
+  .svg-inline--fa.fa-w-14 {
+    width: 0.875em; }
+  .svg-inline--fa.fa-w-15 {
+    width: 0.9375em; }
+  .svg-inline--fa.fa-w-16 {
+    width: 1em; }
+  .svg-inline--fa.fa-w-17 {
+    width: 1.0625em; }
+  .svg-inline--fa.fa-w-18 {
+    width: 1.125em; }
+  .svg-inline--fa.fa-w-19 {
+    width: 1.1875em; }
+  .svg-inline--fa.fa-w-20 {
+    width: 1.25em; }
+  .svg-inline--fa.fa-pull-left {
+    margin-right: .3em;
+    width: auto; }
+  .svg-inline--fa.fa-pull-right {
+    margin-left: .3em;
+    width: auto; }
+  .svg-inline--fa.fa-border {
+    height: 1.5em; }
+  .svg-inline--fa.fa-li {
+    width: 2em; }
+  .svg-inline--fa.fa-fw {
+    width: 1.25em; }
+
+.fa-layers svg.svg-inline--fa {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.fa-layers {
+  display: inline-block;
+  height: 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: -.125em;
+  width: 1em; }
+  .fa-layers svg.svg-inline--fa {
+    -webkit-transform-origin: center center;
+            transform-origin: center center; }
+
+.fa-layers-text, .fa-layers-counter {
+  display: inline-block;
+  position: absolute;
+  text-align: center; }
+
+.fa-layers-text {
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transform-origin: center center;
+          transform-origin: center center; }
+
+.fa-layers-counter {
+  background-color: #ff253a;
+  border-radius: 1em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fff;
+  height: 1.5em;
+  line-height: 1;
+  max-width: 5em;
+  min-width: 1.5em;
+  overflow: hidden;
+  padding: .25em;
+  right: 0;
+  text-overflow: ellipsis;
+  top: 0;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: top right;
+          transform-origin: top right; }
+
+.fa-layers-bottom-right {
+  bottom: 0;
+  right: 0;
+  top: auto;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right; }
+
+.fa-layers-bottom-left {
+  bottom: 0;
+  left: 0;
+  right: auto;
+  top: auto;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left; }
+
+.fa-layers-top-right {
+  right: 0;
+  top: 0;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: top right;
+          transform-origin: top right; }
+
+.fa-layers-top-left {
+  left: 0;
+  right: auto;
+  top: 0;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: top left;
+          transform-origin: top left; }
+
+.fa-lg {
+  font-size: 1.33333em;
+  line-height: 0.75em;
+  vertical-align: -.0667em; }
+
+.fa-xs {
+  font-size: .75em; }
+
+.fa-sm {
+  font-size: .875em; }
+
+.fa-1x {
+  font-size: 1em; }
+
+.fa-2x {
+  font-size: 2em; }
+
+.fa-3x {
+  font-size: 3em; }
+
+.fa-4x {
+  font-size: 4em; }
+
+.fa-5x {
+  font-size: 5em; }
+
+.fa-6x {
+  font-size: 6em; }
+
+.fa-7x {
+  font-size: 7em; }
+
+.fa-8x {
+  font-size: 8em; }
+
+.fa-9x {
+  font-size: 9em; }
+
+.fa-10x {
+  font-size: 10em; }
+
+.fa-fw {
+  text-align: center;
+  width: 1.25em; }
+
+.fa-ul {
+  list-style-type: none;
+  margin-left: 2.5em;
+  padding-left: 0; }
+  .fa-ul &gt; li {
+    position: relative; }
+
+.fa-li {
+  left: -2em;
+  position: absolute;
+  text-align: center;
+  width: 2em;
+  line-height: inherit; }
+
+.fa-border {
+  border: solid 0.08em #eee;
+  border-radius: .1em;
+  padding: .2em .25em .15em; }
+
+.fa-pull-left {
+  float: left; }
+
+.fa-pull-right {
+  float: right; }
+
+.fa.fa-pull-left,
+.fas.fa-pull-left,
+.far.fa-pull-left,
+.fal.fa-pull-left,
+.fab.fa-pull-left {
+  margin-right: .3em; }
+
+.fa.fa-pull-right,
+.fas.fa-pull-right,
+.far.fa-pull-right,
+.fal.fa-pull-right,
+.fab.fa-pull-right {
+  margin-left: .3em; }
+
+.fa-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+          animation: fa-spin 2s infinite linear; }
+
+.fa-pulse {
+  -webkit-animation: fa-spin 1s infinite steps(8);
+          animation: fa-spin 1s infinite steps(8); }
+
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+.fa-rotate-90 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg); }
+
+.fa-rotate-180 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg); }
+
+.fa-rotate-270 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg); }
+
+.fa-flip-horizontal {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+  -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1); }
+
+.fa-flip-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(1, -1);
+          transform: scale(1, -1); }
+
+.fa-flip-horizontal.fa-flip-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(-1, -1);
+          transform: scale(-1, -1); }
+
+:root .fa-rotate-90,
+:root .fa-rotate-180,
+:root .fa-rotate-270,
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical {
+  -webkit-filter: none;
+          filter: none; }
+
+.fa-stack {
+  display: inline-block;
+  height: 2em;
+  position: relative;
+  width: 2em; }
+
+.fa-stack-1x,
+.fa-stack-2x {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.svg-inline--fa.fa-stack-1x {
+  height: 1em;
+  width: 1em; }
+
+.svg-inline--fa.fa-stack-2x {
+  height: 2em;
+  width: 2em; }
+
+.fa-inverse {
+  color: #fff; }
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+.sr-only-focusable:active, .sr-only-focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto; }
+</style><link rel="icon" type="image/png" href="assets/favicon.ico" />
+  <script async="" type="text/javascript" ,src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=AGENCY" id="_fed_an_ua_tag"></script>
+<link rel="stylesheet" href="/token-assets/7a3f22f433361c95134cf842683dd1de/styles.css" /></head>
+<body class="">
+  <app ng-version="6.1.10"><a class="sr-only" tabindex="0" title="Skip navigation" aria-hidden="false">Skip navigation</a><sam-banner><div class="sticky-banner"><div class="m_L-1x"><img alt="US Flag Logo" class="image-wrap" src="assets/img/us_flag_small.png" title="An official website of the United States Government" /><span>An official website of the United States Government   <a>Here's how you know<span class="fa fa-angle-down"></span></a></span><span class="pull-right m_R-1x">This site is in beta and a work in progress   </span></div><!----></div></sam-banner><div style="height: 22px;"> </div><alert-header><!----><div class="ng-star-inserted"><div class="usa-alert usa-alert-error"><div class="usa-alert-body"><!----><div class="title-and-description ng-star-inserted"><h3 class="usa-alert-heading"> testing 2/12 <!----><span class="pull-right ng-star-inserted"><button class="usa-button-dismiss" tabindex="0" aria-hidden="false"><span class="usa-sr-only">Dismiss</span></button></span></h3><p class="usa-alert-text truncate">regression testing</p></div><div class="title-and-description ng-star-inserted"><h3 class="usa-alert-heading"> integration testing 3/5 <!----></h3><p class="usa-alert-text truncate">warning error alert for demo</p></div><div class="alert-link"><a class="usa-nav-link" href="/alerts" tabindex="0" aria-hidden="false">More alerts <i class="fa fa-arrow-circle-o-right"></i></a></div></div></div></div></alert-header><sam-header><header><div header-links=""><sam-header-links class="ng-tns-c0-0"><nav class="sam-ui attached lighter grey borderless menu" aria-label="Header" role="navigation"><div class="sam-ui container"><a class="item" id="element-focus" tabindex="0" href="/" aria-hidden="false"><img class="sam-logo" alt="beta.sam.gov logo." src="assets/img/sam-logo.png" /><span class="usa-sr-only">Go to home page.</span></a><ul class="right menu" aria-label="Main menu"><li class="ng-tns-c0-0"><button class="item" aria-haspopup="menu" id="headerIconMenu" tabindex="0" aria-label="Expandable links menu. Collapsed. " aria-pressed="false" aria-hidden="false"><sam-icon class="ng-tns-c0-0"><sam-fa-icon class="ng-fa-icon"><svg aria-hidden="true" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"/></svg></sam-fa-icon></sam-icon></button><!----></li><li class="ng-tns-c0-0"><button class="item" aria-haspopup="dialog" id="headerIconSearch" tabindex="0" aria-label="Expandable search dialog. Collapsed. " aria-pressed="false" aria-hidden="false"><sam-icon class="ng-tns-c0-0" size="lg"><sam-fa-icon class="ng-fa-icon"><svg aria-hidden="true" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16 fa-lg" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg></sam-fa-icon></sam-icon></button><!----></li><li class="notification-dropdown"><!----><!----></li><li class="notification-dropdown"><button class="item notification-container" aria-haspopup="dialog" id="headerIconNotifications" tabindex="0" aria-label="Expandable notifications dialog. Collapsed. " aria-pressed="false" aria-hidden="false"><sam-icon class="ng-tns-c0-0" size="lg"><sam-fa-icon class="ng-fa-icon"><svg aria-hidden="true" data-prefix="fas" data-icon="bell" class="svg-inline--fa fa-bell fa-w-14 fa-lg" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224 512c35.32 0 63.97-28.65 63.97-64H160.03c0 35.35 28.65 64 63.97 64zm215.39-149.71c-19.32-20.76-55.47-51.99-55.47-154.29 0-77.7-54.48-139.9-127.94-155.16V32c0-17.67-14.32-32-31.98-32s-31.98 14.33-31.98 32v20.84C118.56 68.1 64.08 130.3 64.08 208c0 102.3-36.15 133.53-55.47 154.29-6 6.45-8.66 14.16-8.61 21.71.11 16.4 12.98 32 32.1 32h383.8c19.12 0 32-15.6 32.1-32 .05-7.55-2.61-15.27-8.61-21.71z"/></svg></sam-fa-icon></sam-icon><span class="usa-sr-only">5 notifications</span></button><!----></li><li class="ng-tns-c0-0"><!----><!----><div id="profileDropdownArea" sam-click-outside="" class="ng-tns-c0-0 ng-trigger ng-trigger-flyInOut ng-star-inserted" style="opacity: 1;"><!----></div></li><li class="ng-tns-c0-0"><!----><button aria-haspopup="dialog" class="item ng-tns-c0-0 ng-star-inserted active" id="signin-button" tabindex="0" aria-label="Expandable sign in dialog. Expanded. " aria-pressed="true" aria-hidden="false">Sign in</button><!----><div id="signInDropdownArea" sam-click-outside="" class="ng-tns-c0-0 ng-trigger ng-trigger-flyInOut ng-star-inserted" style="opacity: 1;"><!----><div class="panel-login ng-tns-c0-0 ng-star-inserted" style=""><!----><div class="sam-ui container ng-tns-c0-0 ng-star-inserted"><!----><div class="ng-tns-c0-0 ng-trigger ng-trigger-flyInOut ng-star-inserted" style="opacity: 1;"><sam-login class="ng-tns-c0-0"><div class="usa-authentication usa-login standalone"><div class="one column centered sam-ui grid stage-1" grid=""><!----><div class="twelve wide column ng-star-inserted" style=""><!----><form autocomplete="off" class="usa-form form-login ng-invalid ng-dirty ng-touched" novalidate=""><sam-fieldset-wrapper formgroupname="1" class="ng-dirty ng-touched ng-valid"><div class="usa-input-error"><fieldset class="usa-fieldset-inputs usa-sans"><!----><!----><!----><!----><span aria-live="assertive" class="usa-input-error-message ng-star-inserted"><!----> Timeout has occurred <!----></span><sam-label-wrapper><div><!----><label for="signin-username" class="ng-star-inserted"> Email <!----></label><!----><!----><input autocomplete="off" formcontrolname="username" id="signin-username" type="text" tabindex="0" class="ng-dirty ng-valid ng-touched" aria-hidden="false" /></div></sam-label-wrapper><sam-label-wrapper><div><!----><label for="signin-password" class="ng-star-inserted"> Password <!----></label><!----><!----><input formcontrolname="password" id="signin-password" type="password" tabindex="0" class="ng-dirty ng-valid ng-touched" aria-hidden="false" /></div></sam-label-wrapper><p class="usa-form-note"><a class="usa-show_password" href="javascript:void(0);" role="button" aria-label="Show Password" tabindex="0" aria-hidden="false"> Show Password </a></p></fieldset></div></sam-fieldset-wrapper><div class="usa-button-controls text-left"><button aria-label="Sign In" class="sam-ui button primary" role="button" type="submit" tabindex="0" aria-hidden="false">Sign In</button><!----></div><div class="usa-links sam-ui grid" grid=""><div class="text-center six wide column" columns="6"><a aria-label="Forgot Password" role="button" routerlink="/forgot" tabindex="0" href="/forgot" aria-hidden="false">Forgot Password?</a></div><!----></div></form></div><!----><!----></div></div><!----></sam-login></div></div></div></div></li><li class="ng-tns-c0-0"><!----><a class="item sign-up-link ng-tns-c0-0 ng-star-inserted" id="signup-button" routerlink="/signup" tabindex="0" aria-label="Sign up page. " href="/signup" aria-hidden="false"> Sign up </a></li></ul></div></nav><!----><div class="drawer-bg-animation ng-tns-c0-0 ng-trigger ng-trigger-containerState ng-star-inserted" style=""></div></sam-header-links></div></header></sam-header><sam-modal><!----><!----></sam-modal><main class="occupy-page relative" id="main-container" aria-live="assertive"><router-outlet></router-outlet><home class="ng-star-inserted"><div class="img welcome-banner img m_T-2x" id="primary-content"><div class="sam-ui container relative"><div class="sam-ui grid p_T-2rem"><div class="sam-ui eight wide computer twelve wide mobile column bg-blue welcome-banner-text"><h1 class="m_B-1rem">Welcome</h1><p>This will be the official U.S. government website for people who make, receive, and manage federal awards.</p></div></div><img alt="sam is free" class="sam-is-free" src="assets/img/home/official-us-gov-website.png" /></div></div><div class="home-section"><div class="sam-ui container"><div class="sam-ui stackable two column very relaxed grid"><div class="column"><h1 class="m_T-0 normal">What Can I Do Here?</h1></div></div><div class="sam-ui stackable two column very relaxed grid"><div class="column"><h2>Contracting</h2><div class="clearfix"><img alt="" class="pull-left m_R-6x" src="assets/img/home/red-arrow-2x.png" width="70px" /><div class="m_L-20x"><h3>Wage Determinations (WDOL)</h3><div>This website has officially replaced WDOL.gov.</div><ul><li><a title="About Wage Determinations" href="/help/wage-determinations" tabindex="0" aria-hidden="false">About Wage Determinations</a></li><li><a title="Search Wage Determinations" href="/search?index=wd" tabindex="0" aria-hidden="false">Search Wage Determinations</a></li></ul></div></div><p><a href="https://www.fbo.gov" target="fbo.gov" title="Fbo.gov opens in new window" tabindex="0" aria-hidden="false">FBO.gov<span aria-hidden="true"> </span><span class="fa fa-external-link fa-sm" aria-hidden="true"></span><span class="usa-sr-only"> (opens in new window)</span></a> and  <a href="https://www.fpds.gov" target="fpds.gov" title="Fpds.gov opens in new window" tabindex="0" aria-hidden="false">FPDS.gov<span aria-hidden="true"> </span><span class="fa fa-external-link fa-sm" aria-hidden="true"></span><span class="usa-sr-only"> (opens in new window)</span></a> remain the authoritative sources for contract information. We encourage you to test the search function, user accounts, saved searches, and provide  <a title="Provide feedback" href="/" tabindex="0" aria-hidden="false">feedback</a>. </p><div><div>Learn more</div><ul><li><a title="Contract Opportunities(FBO) Website" href="/help/contract-opportunities" tabindex="0" aria-hidden="false">Contract Opportunities (FBO)</a></li><li><a title="Contract Data(FPDS) Website" href="/help/contract-data" tabindex="0" aria-hidden="false">Contract Data (FPDS)</a></li></ul></div></div><div class="column"><div class="img contracting-people-img"></div></div></div></div></div><div class="home-section contracting"><div class="sam-ui container"><div class="sam-ui stackable two column very relaxed grid"><div class="column"><div class="img fed-assistance-classroom-img"></div></div><div class="column"><h2>Federal Assistance</h2><div class="clearfix"><img alt="" class="pull-left m_R-6x" src="assets/img/home/red-arrow-2x.png" width="70px" /><div class="m_L-20x"><h3>Assistance Listings (CFDA)</h3><div>This website has officially replaced CFDA.gov.</div><ul><li><a title="About Assistance Listings" href="/help/assistance-listing" tabindex="0" aria-hidden="false">About Assistance Listings</a></li><li><a title="Search Assistance Listings" href="/search?index=cfda" tabindex="0" aria-hidden="false">Search Assistance Listings</a></li></ul></div></div><p> Federal users should migrate their roles from CFDA and manage their listings using a new user account. </p></div></div></div></div><div class="home-section entities"><div class="sam-ui container"><div class="sam-ui stackable two column very relaxed grid"><div class="column"><h2>Entities</h2><p> SAM.gov remains the authoritative source for entity information at this time. However, we encourage you to test searching for entity registrations and exclusions here and to provide  <a title="Provide feedback" href="/" tabindex="0" aria-hidden="false">feedback</a>. </p><div class="clearfix"><img alt="" class="pull-left m_R-6x" src="assets/img/home/red-arrow-2x.png" width="70px" /><div class="m_L-20x"><h3>Entity Registration (SAM)</h3><div>To register your entity or update your registration, please continue to use <a href="https://www.sam.gov" target="_blank" title="SAM.gov opens" tabindex="0" aria-hidden="false">SAM.gov<span aria-hidden="true"> </span><span class="fa fa-external-link fa-sm" aria-hidden="true"></span><span class="usa-sr-only"> (opens in new window)</span></a>.</div><ul><li><a title="About Entity Registration" href="/help/entity-information" tabindex="0" aria-hidden="false">About Entities</a></li></ul></div></div></div><div class="column"><div class="img entities-coffee-img"></div></div></div></div></div><div class="home-section what-is-beta-sam p_B-3rem"><div class="sam-ui container"><div class="sam-ui stackable two column very relaxed grid"><div class="sam-video-container what-is-beta-sam-video-container"><!----><sam-video-player class="ng-star-inserted"><div class="sam-video-player"><div class="px-video-container" id="samVideo" style="width:490px"><div class="px-video-img-captions-container"><div aria-hidden="true" class="px-video-captions hide"> </div><video class="what-is-sam-video" crossorigin="anonymous" poster="/assets/img/home/lady-laptop.jpg" title="Welcome to beta.sam.gov video." width="490" name="samVideo" role="presentation"><source type="video/mp4" src="https://iae-dev-videos.s3.amazonaws.com/videos/Sam-Video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Date=20190320T195348Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=86399&amp;X-Amz-Credential=AKIAJH2SWSTQL7TPJCOQ%2F20190320%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Signature=9dc99a0740ca7c61a742cdbd8709d300ea70bb3b3c653fed8f51a8d234b5c8db" /><track default="" kind="captions" label="English captions" srclang="en" src="https://iae-dev-videos.s3.amazonaws.com/videos/Sam-Captions.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Date=20190320T195348Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=86399&amp;X-Amz-Credential=AKIAJH2SWSTQL7TPJCOQ%2F20190320%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Signature=0f159ebccab5246b42215adfe19b9245d1eac4db934cc1a269d45a05ddae1c11" /><div><a href="https://iae-dev-videos.s3.amazonaws.com/videos/Sam-Video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Date=20190320T195348Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=86399&amp;X-Amz-Credential=AKIAJH2SWSTQL7TPJCOQ%2F20190320%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Signature=9dc99a0740ca7c61a742cdbd8709d300ea70bb3b3c653fed8f51a8d234b5c8db" tabindex="0" aria-hidden="false"><img alt="download video" src="/assets/img/home/lady-laptop.jpg" width="496px" /></a></div></video></div><div class="px-video-controls"><div class="clearfix"><div class="pull-left"><button class="px-video-restart" title="Restart" tabindex="0" aria-hidden="false"><span class="sr-only">Restart</span></button><button class="px-video-rewind" title="Rewind" tabindex="0" aria-hidden="false"><span class="sr-only">rewind <span class="px-seconds">20</span> seconds</span></button><button class="px-video-play" aria-label="Play video, Sam Video" title="Play" tabindex="0" aria-hidden="false"><span class="sr-only">Play</span></button><button class="px-video-pause hide" title="Pause" tabindex="0" aria-hidden="false"><span class="sr-only">Pause</span></button><button class="px-video-forward" title="Forward" "="" tabindex="0" aria-hidden="false"><span class="sr-only">forward <span class="px-seconds">20</span> seconds</span></button></div><div class="px-video-mute-btn-container pull-left" title="Mute"><input class="px-video-mute sr-only" id="btnMute4780" type="checkbox" tabindex="0" aria-hidden="false" /><label id="labelMute4780" for="btnMute4780" style="margin-left:100px"><span class="sr-only">Mute</span></label></div><div class="pull-left"><label for="volume4780" class="sr-only">Volume:</label><input id="volume4780" class="px-video-volume" type="range" min="0" max="10" value="5" tabindex="0" aria-hidden="false" /></div><div class="px-video-captions-btn-container pull-left show" title="Closed captions"><input class="px-video-btnCaptions sr-only" id="btnCaptions4780" type="checkbox" tabindex="0" aria-hidden="false" /><label for="btnCaptions4780"><span class="sr-only">Closed captions</span></label></div><div class="px-video-fullscreen-btn-container pull-left show" title="Toggle full screen"><input class="px-video-btnFullScreen sr-only" id="btnFullscreen4780" type="checkbox" tabindex="0" aria-hidden="false" /><label for="btnFullscreen4780"><span class="sr-only">Toggle full screen</span></label></div><div class="px-video-time"><span class="sr-only">time</span> <span class="px-video-duration">00:00</span></div></div><div><div class="px-timetip hide"></div><progress class="px-video-progress" max="100" value="0" name="samVideo" aria-label="video progress bar" role="progressbar"><span>0</span>% played</progress></div></div></div></div></sam-video-player></div><div class="column"><h2>What is beta.SAM.gov</h2><p> GSA is merging its current legacy sites into one system. This transition offers a more efficient way to access all federal award information.  <a title="Learn more about Data Sets" href="/help/award-data" tabindex="0" aria-hidden="false">Learn More.</a></p><ul><!----><li class="ng-star-inserted"><a title="test 2/5" href="/cm/faqs/detail?id=850" tabindex="0" aria-hidden="false">test 2/5</a></li><li class="ng-star-inserted"><a title="test on 1/9" href="/cm/faqs/detail?id=844" tabindex="0" aria-hidden="false">test on 1/9</a></li><li class="ng-star-inserted"><a title="testing testing" href="/cm/faqs/detail?id=841" tabindex="0" aria-hidden="false">testing testing</a></li><li><a title="More FAQs" href="/help/library?types=2" tabindex="0" aria-hidden="false">More FAQs</a></li></ul><div class="clearfix provide-feedback m_T-2em"><div class="pull-left feedback-icon" width="80px"><button class="fa-stack fa-2x m_T-0 no-bkg" title="Provide Feedback" tabindex="0" aria-hidden="false"><i class="fa fa-circle fa-stack-2x feedback-icon-circle"></i><i class="fa fa-comments fa-comments-homepage fa-stack-1x feedback-icon-comment"></i><span class="usa-sr-only">Provide Feedback</span></button></div><div class="feedback-button"><h4>Provide Feedback</h4> What you think matters! </div></div></div></div></div></div><div class="sam-ui padded grid"><div class="dark blue row p_T-3rem p_B-3rem p_L-0 p_R-0"><div class="twelve wide column"><div class="sam-ui container"><div class="sam-ui three column vertically padded stackable grid"><div class="column center aligned bottom-row-item"><a title="New to Sam.gov" href="/help/new-to-sam" tabindex="0" aria-hidden="false"><span class="fa-stack fa-2x"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-map-marker fa-stack-1x inner-icon"></i></span><h4>New to SAM.gov</h4><div class="normal"> Start with a search, or visit our comprehensive Help. </div></a></div><div class="column center aligned bottom-row-item"><a title="User Accounts" href="/help/user-accounts" tabindex="0" aria-hidden="false"><span class="fa-stack fa-2x"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-user-circle-o fa-stack-1x inner-icon"></i></span><h4>User Accounts</h4><div class="normal"> Users of legacy systems transitioning to SAM will need to create a user account. </div></a></div><div class="column center aligned bottom-row-item"><a title="What's next" href="/help/whats-next" tabindex="0" aria-hidden="false"><span class="fa-stack fa-2x"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-map-signs fa-stack-1x inner-icon"></i></span><h4>What's Next</h4><div class="normal"> Modernization timeline: When do legacy systems transition to SAM.gov? </div></a></div></div></div></div></div></div></home><div></div></main><alert-footer><div aria-live="assertive" class="usa-alert-fixed-footer" focus="true" role="alert"><!----></div></alert-footer><sam-sr-message-footer><div aria-live="assertive" class="usa-alert-fixed-footer" role="alert"><!----></div></sam-sr-message-footer><sam-footer labelname="footer"><footer aria-label="footer-navigation" class="sam-footer" id="sam-footer"><div class="sam-ui padded grid"><div class="lighter grey row"><nav aria-label="footer-nav" class="sam-ui container"><ul class="sam-ui four column stackable vertically very padded grid"><li class="column sam-footer-logo"><a href="http://www.gsa.gov" target="gsa.gov" title="GSA.gov" tabindex="0" aria-hidden="false"><span>General Services Administration Website</span><span aria-hidden="true"> </span><span class="fa fa-external-link fa-sm" aria-hidden="true"></span><span class="usa-sr-only"> (opens in new window)</span></a></li><li class="column"><h2 class="sam-ui header">About Us</h2><ul class="sam-ui list"><li><a href="https://interact.gsa.gov/group/integrated-award-environment-iae-industry-community" target="Explore Our Community" title="Explore Our Community" tabindex="0" aria-hidden="false"> Explore Our Community <i aria-hidden="true" class="fa fa-external-link fa-sm"></i><span class="usa-sr-only"> (opens in new window)</span></a></li><li><a title="Release Notes" href="/release-notes" tabindex="0" aria-hidden="false"> Release Notes </a></li><li><!----></li></ul></li><li class="column"><h2 class="sam-ui header">Partners</h2><ul class="sam-ui list"><li><a href="https://www.acquisition.gov/" target="Acquisition.gov" title="Acquisition.gov" tabindex="0" aria-hidden="false"> Acquisition.gov <span aria-hidden="true"> </span><span class="fa fa-external-link fa-sm" aria-hidden="true"></span><span class="usa-sr-only"> (opens in new window)</span></a></li><li><a href="https://www.usaspending.gov/Pages/Default.aspx" target="USASpending.gov" title="USASpending.gov" tabindex="0" aria-hidden="false"> USASpending.gov <span aria-hidden="true"> </span><span class="fa fa-external-link fa-sm" aria-hidden="true"></span><span class="usa-sr-only"> (opens in new window)</span></a></li><li><a href="http://www.grants.gov/" target="Grants.gov" title="Grants.gov" tabindex="0" aria-hidden="false"> Grants.gov <span aria-hidden="true"> </span><span class="fa fa-external-link fa-sm" aria-hidden="true"></span><span class="usa-sr-only"> (opens in new window)</span></a></li><li><a title="More Partners" href="/help/partners" tabindex="0" aria-hidden="false"> More Partners </a></li></ul></li><li class="column"><h2 class="sam-ui header">Customer Service</h2><ul class="sam-ui list"><li><a title="Learning Center" href="/help/new-to-sam" tabindex="0" aria-hidden="false"> Learning Center </a></li><!----><li><a title="Resources" href="/help/resources" tabindex="0" aria-hidden="false"> Resources </a></li><li><a href="https://www.gsa.gov/reference/freedom-of-information-act-foia" target="Freedom of Information Act" title="Freedom of Information Act" tabindex="0" aria-hidden="false"> Freedom of Information Act <i aria-hidden="true" class="fa fa-external-link fa-sm"></i><span class="usa-sr-only"> (opens in new window)</span></a></li></ul></li></ul><p> This is a U.S. General Services Administration Federal Government computer system that is <strong>"FOR OFFICIAL USE ONLY."</strong> This system is subject to monitoring. Individuals found performing unauthorized activities are subject to disciplinary action including criminal prosecution. </p><div class="text-center build-info"> ● Monday, Mar 18, 2019, 5:38 PM</div></nav></div></div></footer></sam-footer><sam-feedback><div class="sam-feedback"><sam-modal><!----><!----></sam-modal><!----><!----></div></sam-feedback></app>
+<script type="text/javascript" src="/token-assets/7a3f22f433361c95134cf842683dd1de/runtime.js"></script><script type="text/javascript" src="/token-assets/7a3f22f433361c95134cf842683dd1de/polyfills.js"></script><script type="text/javascript" src="/token-assets/7a3f22f433361c95134cf842683dd1de/scripts.js"></script><script type="text/javascript" src="/token-assets/7a3f22f433361c95134cf842683dd1de/main.js"></script>
+
+<div id="px-video-aria-announce" role="alert" aria-atomic="true" style="overflow: hidden; text-indent: -999999px;"></div></body></html>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CucumberTestSuite" project="rolemangement-selenium" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testsuite name="gov.gsa.sam.rms.stepdefinition.CucumberTestSuite" time="177.311">
+    <testsuite name="Feature: Account Details validation and API key functionality" time="177.311">
+      <testcase name="only the latest otp should work to validate api key generation in profile page" classname="Account Details validation and API key functionality" time="177.311">
+        <failure>java.lang.AssertionError: expected:&lt;true&gt; but was:&lt;false&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at org.junit.Assert.failNotEquals(Assert.java:834)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:118)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:144)&#13;
+	at gov.gsa.sam.rms.stepdefinition.AccountDetailsStep._1_user_generates_otp_with_show_apikey_generation(AccountDetailsStep.java:58)&#13;
+	at ✽._1 user generates otp with show apikey generation(src/test/resources/features/AccountDetails.feature:27)&#13;
+&#13;
+</failure>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

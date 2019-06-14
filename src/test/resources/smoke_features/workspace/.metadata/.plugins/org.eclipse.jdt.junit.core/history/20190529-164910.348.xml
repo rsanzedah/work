@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CucumberTestSuite" project="rolemangement-selenium" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testsuite name="gov.gsa.sam.rms.stepdefinition.CucumberTestSuite" time="235.528">
+    <testsuite name="Feature: Email functionality" time="235.528">
+      <testcase name="role requested if approved should sent emails to requester and approver" classname="Email functionality" time="235.528">
+        <failure>java.lang.AssertionError: expected:&lt;true&gt; but was:&lt;false&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at org.junit.Assert.failNotEquals(Assert.java:834)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:118)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:144)&#13;
+	at gov.gsa.sam.rms.stepdefinition.EmailStep._2_the_requester_should_also_receive_an_email_message(EmailStep.java:203)&#13;
+	at ✽._2 the requester should also receive an email message(src/test/resources/features/Email.feature:36)&#13;
+&#13;
+</failure>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

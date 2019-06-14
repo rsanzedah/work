@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CucumberTestSuite" project="rolemangement-selenium" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="gov.gsa.sam.rms.stepdefinition.CucumberTestSuite" time="299.352">
+    <testsuite name="Feature: Email functionality" time="299.352">
+      <testcase name="role requested if rejected should sent emails to requester and approver" classname="Email functionality" time="299.352"/>
+    </testsuite>
+  </testsuite>
+</testrun>

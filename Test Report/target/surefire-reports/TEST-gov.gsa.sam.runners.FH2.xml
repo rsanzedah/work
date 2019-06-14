@@ -1,0 +1,1376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="gov.gsa.sam.runners.FH2" time="3,005.612" tests="72" errors="8" skipped="0" failures="3">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Test Report"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="test" value="FH2"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Test Report"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Temp\1\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Users\ShanthiDutta\Documents\workspace-spring-tool-suite-4-4.0.1.RELEASE\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf239403814818130965.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_201/bin/server;C:/Program Files/Java/jre1.8.0_201/bin;C:/Program Files/Java/jre1.8.0_201/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\HID Global\ActivClient\;C:\Program Files\HID Global\ActivClient\;C:\Program Files\Common Files\ThinPrint\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\ActivIdentity\ActivClient;C:\Program Files (x86)\ActivIdentity\ActivClient;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\ManagementStudio;C:\DeveloperTools\apache-maven-3.5.0\bin;C:\DeveloperTools\apache-ant-1.10.1\bin;C:\Program Files\TortoiseSVN\bin;C:\Python27;C:\Python27\Scripts;C:\ProgramData\Boxstarter;C:\Windows\system32;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\IBM\RationalSDLC\common;C:\Program Files (x86)\IBM\RationalSDLC\ClearCase\bin;C:\Program Files (x86)\IBM\gsk8\lib;C:\Program Files (x86)\IBM\gsk8\bin;C:\Program Files (x86)\IBM\RationalSDLC\ClearCase\RemoteClient\cteapis;C:\ProgramData\Oracle\Java\javapath_target_424416694;C:\Oracle\product\11.2.0\client_1\bin;C:\Program Files\nodejs;C:\Program Files (x86)\PuTTY;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit;C:\ProgramData\chocolatey\bin;C:\ProgramData\npm;C:\Program Files (x86)\sts-bundle\sts-4.0.1.RELEASE;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\ShanthiDutta"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="ShanthiDutta"/>
+    <property name="java.class.path" value="C:\Program Files (x86)\sts-bundle\sts-4.0.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_1.9.1.20180912-1600\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_191\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -Dtest=FH2 clean verify"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_191\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Test Report\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Log into the GSA website" classname="Validate error meaasage in sub tier page" time="121.219"/>
+  <testcase name="This field cannot be empty" classname="Validate error meaasage in sub tier page" time="14.953"/>
+  <testcase name="EMPTY_NAME" classname="Validate error meaasage in sub tier page" time="9.549"/>
+  <testcase name="EMPTY_NAME" classname="Validate error meaasage in sub tier page" time="9.479"/>
+  <testcase name="EMPTY_NAME" classname="Validate error meaasage in sub tier page" time="9.407"/>
+  <testcase name="EMPTY_NAME" classname="Validate error meaasage in sub tier page" time="9.436"/>
+  <testcase name="EMPTY_NAME" classname="Validate error meaasage in sub tier page" time="9.427"/>
+  <testcase name="EMPTY_NAME" classname="Validate error meaasage in sub tier page" time="9.404"/>
+  <testcase name="EMPTY_NAME" classname="Validate error meaasage in sub tier page" time="9.54"/>
+  <testcase name="Description field is Empty" classname="Validate error meaasage in sub tier page" time="19.679"/>
+  <testcase name="This field is required" classname="Validate error meaasage in sub tier page" time="3.859"/>
+  <testcase name="Required Field" classname="Validate error meaasage in sub tier page" time="9.468"/>
+  <testcase name="Agency is Required" classname="Validate error meaasage in sub tier page" time="4.922"/>
+  <testcase name="CGAC is Required" classname="Validate error meaasage in sub tier page" time="4.764"/>
+  <testcase name=": Reading CGAC only numbers expection" classname="Validate error meaasage in sub tier page" time="6.507"/>
+  <testcase name="CGAC only numbers" classname="Validate error meaasage in sub tier page" time="6.007"/>
+  <testcase name="date field expection" classname="Validate error meaasage in sub tier page" time="35.759">
+    <error message="Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=&quot;primary-content&quot;]/ng-component/div/div[1]/div[3]/div[6]/form/sam-fieldset-wrapper/div/fieldset/sam-date/sam-fieldset-wrapper/div/fieldset/span (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="primary-content"]/ng-component/div/div[1]/div[3]/div[6]/form/sam-fieldset-wrapper/div/fieldset/sam-date/sam-fieldset-wrapper/div/fieldset/span (tried for 30 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.xpath: //*[@id="primary-content"]/ng-component/div/div[1]/div[3]/div[6]/form/sam-fieldset-wrapper/div/fieldset/sam-date/sam-fieldset-wrapper/div/fieldset/span
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'I07R7C-GF1025', ip: '172.28.64.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+</error>
+    <system-out><![CDATA[
+  @NegEditDepartmentSubTier @DateField
+  Scenario: date field expection       &amp#27;[90m# src/test/resources/features/NegEditDepartmentSubTier.feature:150&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mReading date field Expection&amp#27;[0m &amp#27;[90m# NegEditDepartmentSubTierStepDef.Reading_date_field_Expection()&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mdate field Expection&amp#27;[0m          &amp#27;[90m# NegEditDepartmentSubTierStepDef.date_field_Expection()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="primary-content"]/ng-component/div/div[1]/div[3]/div[6]/form/sam-fieldset-wrapper/div/fieldset/sam-date/sam-fieldset-wrapper/div/fieldset/span (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at gov.gsa.sam.stepdefinition.NegEditDepartmentSubTierStepDef.date_field_Expection(NegEditDepartmentSubTierStepDef.java:649)
+	at ?.date field Expection(src/test/resources/features/NegEditDepartmentSubTier.feature:152)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@id="primary-content"]/ng-component/div/div[1]/div[3]/div[6]/form/sam-fieldset-wrapper/div/fieldset/sam-date/sam-fieldset-wrapper/div/fieldset/span
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'I07R7C-GF1025', ip: '172.28.64.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	at gov.gsa.sam.stepdefinition.NegEditDepartmentSubTierStepDef.date_field_Expection(NegEditDepartmentSubTierStepDef.java:649)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:32)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:26)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:40)
+	at cucumber.api.TestStep.executeStep(TestStep.java:102)
+	at cucumber.api.TestStep.run(TestStep.java:83)
+	at cucumber.api.TestCase.run(TestCase.java:58)
+	at cucumber.runner.Runner.runPickle(Runner.java:80)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:117)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:126)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:272)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:236)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: 
+----------------------------------------------------------------------------
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: date field expection
+-------------------------------------------------------------------(validate-error-meaasage-in-sub-tier-page;date-field-expection)
+[main] INFO gov.gsa.sam.stepdefinition.NegEditDepartmentSubTierStepDef - user click on agency details button
+[main] INFO gov.gsa.sam.stepdefinition.NegEditDepartmentSubTierStepDef - ^user click submit agency details$
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: date field expection
+---------------------------------------------------------------------
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then date field Expection
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - Cannot locate an element using By.xpath: //*[@id="primary-content"]/ng-component/div/div[1]/div[3]/div[6]/form/sam-fieldset-wrapper/div/fieldset/sam-date/sam-fieldset-wrapper/div/fieldset/span
+]]></system-err>
+  </testcase>
+  <testcase name="Date field" classname="Validate error meaasage in sub tier page" time="8.856">
+    <failure message="expected:&lt;All date fields are required&gt; but was:&lt;null&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<All date fields are required> but was:<null>
+]]></failure>
+    <system-out><![CDATA[
+  @EmptySuperAdmineditDepartment
+  Scenario Outline: Date field &amp#27;[90m# src/test/resources/features/NegEditDepartmentSubTier.feature:162&amp#27;[0m
+    &amp#27;[36mAnd click on edit agency details&amp#27;[0m
+    &amp#27;[36mAnd user enters month <month>&amp#27;[0m
+    &amp#27;[36mAnd user enters Day <Day>&amp#27;[0m
+    &amp#27;[36mAnd user enters Year <Year>&amp#27;[0m
+    &amp#27;[36mAnd user enters Description <Description>&amp#27;[0m
+    &amp#27;[36mAnd user enters Short Name <ShorName>&amp#27;[0m
+    &amp#27;[36mAnd click submit agency details&amp#27;[0m
+    &amp#27;[36mWhen Validate error message <ErrorMessage>&amp#27;[0m
+
+    Examples: 
+
+  @NegEditDepartmentSubTier @EmptySuperAdmineditDepartment
+  Scenario Outline: Date field                           &amp#27;[90m# src/test/resources/features/NegEditDepartmentSubTier.feature:174&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick on edit agency details&amp#27;[0m                     &amp#27;[90m# NegEditDepartmentSubTierStepDef.click_on_edit_agency_details()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters month &amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m                               &amp#27;[90m# NegEditDepartmentSubTierStepDef.user_enters_month(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters Day &amp#27;[0m&amp#27;[32m&amp#27;[1m30&amp#27;[0m                               &amp#27;[90m# NegEditDepartmentSubTierStepDef.user_enters_Day(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters Year &amp#27;[0m&amp#27;[32m&amp#27;[1m2021&amp#27;[0m                            &amp#27;[90m# NegEditDepartmentSubTierStepDef.user_enters_Year(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters Description &amp#27;[0m&amp#27;[32m&amp#27;[1mHello&amp#27;[0m                    &amp#27;[90m# NegEditDepartmentSubTierStepDef.User_click_on_Description(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters Short Name &amp#27;[0m&amp#27;[32m&amp#27;[1mTest&amp#27;[0m                      &amp#27;[90m# NegEditDepartmentSubTierStepDef.User_click_on_Short_Name(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick submit agency details&amp#27;[0m                      &amp#27;[90m# NegEditDepartmentSubTierStepDef.click_submit_agency_details()&amp#27;[0m
+    &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mValidate error message &amp#27;[0m&amp#27;[31m&amp#27;[1mdate fields are required&amp#27;[0m &amp#27;[90m# NegEditDepartmentSubTierStepDef.validate_Only_Number_Error_Message(String)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected:<All date fields are required> but was:<null>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at gov.gsa.sam.stepdefinition.NegEditDepartmentSubTierStepDef.validate_Only_Number_Error_Message(NegEditDepartmentSubTierStepDef.java:551)
+	at ?.Validate error message date fields are required(src/test/resources/features/NegEditDepartmentSubTier.feature:170)
+&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: 
+----------------------------------------------------------------------------
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Date field
+-------------------------------------------------------------------(validate-error-meaasage-in-sub-tier-page;date-field)
+[main] INFO gov.gsa.sam.stepdefinition.NegEditDepartmentSubTierStepDef - user click on agency details button
+[main] INFO gov.gsa.sam.stepdefinition.NegEditDepartmentSubTierStepDef - The user enters on month
+[main] INFO gov.gsa.sam.stepdefinition.NegEditDepartmentSubTierStepDef - The user enters on month
+[main] INFO gov.gsa.sam.stepdefinition.NegEditDepartmentSubTierStepDef - The user enters on Day30
+[main] INFO gov.gsa.sam.stepdefinition.NegEditDepartmentSubTierStepDef - The user enters on Day30
+[main] INFO gov.gsa.sam.stepdefinition.NegEditDepartmentSubTierStepDef - The user enters on Year2021
+[main] INFO gov.gsa.sam.stepdefinition.NegEditDepartmentSubTierStepDef - User click on DescriptionHello
+[main] INFO gov.gsa.sam.stepdefinition.NegEditDepartmentSubTierStepDef - User click on Short NameTest
+[main] INFO gov.gsa.sam.stepdefinition.NegEditDepartmentSubTierStepDef - ^user click submit agency details$
+[main] INFO gov.gsa.sam.stepdefinition.NegEditDepartmentSubTierStepDef - ErrorMessage :date fields are required
+[main] INFO gov.gsa.sam.stepdefinition.NegEditDepartmentSubTierStepDef - Month1 :All date fields are required
+[main] INFO gov.gsa.sam.stepdefinition.NegEditDepartmentSubTierStepDef - Month:null
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Date field
+--------------------------------------------------------------------------
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP When Validate error message date fields are required
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - expected:<All date fields are required> but was:<null>
+]]></system-err>
+  </testcase>
+  <testcase name="Click on federal Hierancy" classname="Validate error meaasage in sub tier page" time="15.247"/>
+  <testcase name="Click on federal Hierancy" classname="Validate error meaasage in sub tier page" time="15.241"/>
+  <testcase name="Date field expection" classname="Validate error meaasage in sub tier page" time="35.556">
+    <error message="Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=&quot;primary-content&quot;]/ng-component/div/div[1]/div[3]/div[6]/form/sam-fieldset-wrapper/div/fieldset/sam-date/sam-fieldset-wrapper/div/fieldset/span (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="primary-content"]/ng-component/div/div[1]/div[3]/div[6]/form/sam-fieldset-wrapper/div/fieldset/sam-date/sam-fieldset-wrapper/div/fieldset/span (tried for 30 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.xpath: //*[@id="primary-content"]/ng-component/div/div[1]/div[3]/div[6]/form/sam-fieldset-wrapper/div/fieldset/sam-date/sam-fieldset-wrapper/div/fieldset/span
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'I07R7C-GF1025', ip: '172.28.64.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+</error>
+    <system-out><![CDATA[
+  @NegEditDepartmentSubTier @SubTierDateField
+  Scenario: Date field expection       &amp#27;[90m# src/test/resources/features/NegEditDepartmentSubTier.feature:207&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mReading date field Expection&amp#27;[0m &amp#27;[90m# NegEditDepartmentSubTierStepDef.Reading_date_field_Expection()&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mdate field Expection&amp#27;[0m          &amp#27;[90m# NegEditDepartmentSubTierStepDef.date_field_Expection()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="primary-content"]/ng-component/div/div[1]/div[3]/div[6]/form/sam-fieldset-wrapper/div/fieldset/sam-date/sam-fieldset-wrapper/div/fieldset/span (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at gov.gsa.sam.stepdefinition.NegEditDepartmentSubTierStepDef.date_field_Expection(NegEditDepartmentSubTierStepDef.java:649)
+	at ?.date field Expection(src/test/resources/features/NegEditDepartmentSubTier.feature:209)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@id="primary-content"]/ng-component/div/div[1]/div[3]/div[6]/form/sam-fieldset-wrapper/div/fieldset/sam-date/sam-fieldset-wrapper/div/fieldset/span
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'I07R7C-GF1025', ip: '172.28.64.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	at gov.gsa.sam.stepdefinition.NegEditDepartmentSubTierStepDef.date_field_Expection(NegEditDepartmentSubTierStepDef.java:649)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:32)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:26)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:40)
+	at cucumber.api.TestStep.executeStep(TestStep.java:102)
+	at cucumber.api.TestStep.run(TestStep.java:83)
+	at cucumber.api.TestCase.run(TestCase.java:58)
+	at cucumber.runner.Runner.runPickle(Runner.java:80)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:117)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:126)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:272)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:236)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Click on federal Hierancy
+----------------------------------------------------------------------------
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Date field expection
+-------------------------------------------------------------------(validate-error-meaasage-in-sub-tier-page;date-field-expection)
+[main] INFO gov.gsa.sam.stepdefinition.NegEditDepartmentSubTierStepDef - user click on agency details button
+[main] INFO gov.gsa.sam.stepdefinition.NegEditDepartmentSubTierStepDef - ^user click submit agency details$
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Date field expection
+---------------------------------------------------------------------
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then date field Expection
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - Cannot locate an element using By.xpath: //*[@id="primary-content"]/ng-component/div/div[1]/div[3]/div[6]/form/sam-fieldset-wrapper/div/fieldset/sam-date/sam-fieldset-wrapper/div/fieldset/span
+]]></system-err>
+  </testcase>
+  <testcase name="Super Admin Edit SubTier" classname="Validate error meaasage in sub tier page" time="10.188">
+    <failure message="expected:&lt;All date fields are required&gt; but was:&lt;null&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<All date fields are required> but was:<null>
+]]></failure>
+    <system-out><![CDATA[
+  @EmptySuperAdmineditSubTier
+  Scenario Outline: Super Admin Edit SubTier &amp#27;[90m# src/test/resources/features/NegEditDepartmentSubTier.feature:222&amp#27;[0m
+    &amp#27;[36mAnd click subTier details&amp#27;[0m
+    &amp#27;[36mAnd user enters subTie month <month>&amp#27;[0m
+    &amp#27;[36mAnd user enters subTier end Day <Day>&amp#27;[0m
+    &amp#27;[36mAnd user enters subTier end Year <Year>&amp#27;[0m
+    &amp#27;[36mAnd user enters subTier Short Name  <ShortName>&amp#27;[0m
+    &amp#27;[36mAnd User click submit Details Sub-Tier Details&amp#27;[0m
+    &amp#27;[36mWhen Validate error message <ErrorMessage>&amp#27;[0m
+
+    Examples: 
+
+  @NegEditDepartmentSubTier @EmptySuperAdmineditSubTier
+  Scenario Outline: Super Admin Edit SubTier             &amp#27;[90m# src/test/resources/features/NegEditDepartmentSubTier.feature:232&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick subTier details&amp#27;[0m                            &amp#27;[90m# NegEditDepartmentSubTierStepDef.click_on_edit_subTier_details()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters subTie month &amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m                        &amp#27;[90m# NegEditDepartmentSubTierStepDef.user_enters_subTie_end_month(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters subTier end Day &amp#27;[0m&amp#27;[32m&amp#27;[1m12&amp#27;[0m                   &amp#27;[90m# NegEditDepartmentSubTierStepDef.user_enters_subTier_end_Day(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters subTier end Year &amp#27;[0m&amp#27;[32m&amp#27;[1m2021&amp#27;[0m                &amp#27;[90m# NegEditDepartmentSubTierStepDef.user_enters_subTier_end_Year(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters subTier Short Name &amp#27;[0m&amp#27;[32m&amp#27;[1m test&amp#27;[0m             &amp#27;[90m# NegEditDepartmentSubTierStepDef.user_enters_on_subTier_Short_Name(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser click submit Details Sub-Tier Details&amp#27;[0m       &amp#27;[90m# NegEditDepartmentSubTierStepDef.submit_subTier_agency_details()&amp#27;[0m
+    &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mValidate error message &amp#27;[0m&amp#27;[31m&amp#27;[1mdate fields are required&amp#27;[0m &amp#27;[90m# NegEditDepartmentSubTierStepDef.validate_Only_Number_Error_Message(String)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected:<All date fields are required> but was:<null>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at gov.gsa.sam.stepdefinition.NegEditDepartmentSubTierStepDef.validate_Only_Number_Error_Message(NegEditDepartmentSubTierStepDef.java:551)
+	at ?.Validate error message date fields are required(src/test/resources/features/NegEditDepartmentSubTier.feature:229)
+&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Click on federal Hierancy
+----------------------------------------------------------------------------
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Super Admin Edit SubTier
+-------------------------------------------------------------------(validate-error-meaasage-in-sub-tier-page;super-admin-edit-subtier)
+[main] INFO gov.gsa.sam.stepdefinition.NegEditDepartmentSubTierStepDef - Edit subTier details
+[main] INFO gov.gsa.sam.stepdefinition.NegEditDepartmentSubTierStepDef - The user enters on month
+[main] INFO gov.gsa.sam.stepdefinition.NegEditDepartmentSubTierStepDef - The user enters on Day12
+[main] INFO gov.gsa.sam.stepdefinition.NegEditDepartmentSubTierStepDef - The user enters on Year2021
+[main] INFO gov.gsa.sam.stepdefinition.NegEditDepartmentSubTierStepDef - User click on Short Name test
+[main] INFO gov.gsa.sam.stepdefinition.NegEditDepartmentSubTierStepDef - Edit submit subTier details
+[main] INFO gov.gsa.sam.stepdefinition.NegEditDepartmentSubTierStepDef - ErrorMessage :date fields are required
+[main] INFO gov.gsa.sam.stepdefinition.NegEditDepartmentSubTierStepDef - Month1 :All date fields are required
+[main] INFO gov.gsa.sam.stepdefinition.NegEditDepartmentSubTierStepDef - Month:null
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Super Admin Edit SubTier
+--------------------------------------------------------------------------
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP When Validate error message date fields are required
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - expected:<All date fields are required> but was:<null>
+]]></system-err>
+  </testcase>
+  <testcase name="Super Admin Edit SubTier" classname="Validate error meaasage in sub tier page" time="7.852"/>
+  <testcase name="0ne" classname="Validate error meaasage in sub tier page" time="15.237"/>
+  <testcase name="Agency Code Field Edit SubTier" classname="Validate error meaasage in sub tier page" time="7.51"/>
+  <testcase name="two" classname="Validate error meaasage in sub tier page" time="15.147"/>
+  <testcase name="browser sign out" classname="Validate error meaasage in sub tier page" time="8.038"/>
+  <testcase name="Log into the GSA website" classname="Create and Editing department and sub tier" time="113.198"/>
+  <testcase name="Create department" classname="Create and Editing department and sub tier" time="79.912"/>
+  <testcase name="Edit Federal hierarchy details" classname="Create and Editing department and sub tier" time="29.809"/>
+  <testcase name="Create Sub Tier" classname="Create and Editing department and sub tier" time="24.076"/>
+  <testcase name="Edit Sub Tier" classname="Create and Editing department and sub tier" time="15.648"/>
+  <testcase name="Create office" classname="Create and Editing department and sub tier" time="266.157"/>
+  <testcase name="Department created browser sign out" classname="Create and Editing department and sub tier" time="6.48"/>
+  <testcase name="Log into the GSA website" classname="Validate error meaasage in create department and sub tier page" time="118.95"/>
+  <testcase name="Submit department without filling value" classname="Validate error meaasage in create department and sub tier page" time="12.872"/>
+  <testcase name="Validating negative scenario department" classname="Validate error meaasage in create department and sub tier page" time="16.281"/>
+  <testcase name="Validating negative scenario department" classname="Validate error meaasage in create department and sub tier page" time="16.272"/>
+  <testcase name="Validating negative scenario department" classname="Validate error meaasage in create department and sub tier page" time="16.114"/>
+  <testcase name="Validating negative scenario department" classname="Validate error meaasage in create department and sub tier page" time="16.197"/>
+  <testcase name="Validating negative scenario department" classname="Validate error meaasage in create department and sub tier page" time="16.06"/>
+  <testcase name="Validating negative scenario department" classname="Validate error meaasage in create department and sub tier page" time="19.265"/>
+  <testcase name="Validating negative scenario department" classname="Validate error meaasage in create department and sub tier page" time="16.772"/>
+  <testcase name="Validating negative scenario department" classname="Validate error meaasage in create department and sub tier page" time="16.675"/>
+  <testcase name="Validating negative scenario department" classname="Validate error meaasage in create department and sub tier page" time="16.751"/>
+  <testcase name="Validating negative scenario department" classname="Validate error meaasage in create department and sub tier page" time="16.834"/>
+  <testcase name="Submit department by filling value" classname="Validate error meaasage in create department and sub tier page" time="12.357"/>
+  <testcase name="Submit department by filling special char" classname="Validate error meaasage in create department and sub tier page" time="12.7"/>
+  <testcase name="EMPTY_NAME" classname="Validate error meaasage in create department and sub tier page" time="17.007"/>
+  <testcase name="EMPTY_NAME" classname="Validate error meaasage in create department and sub tier page" time="16.907"/>
+  <testcase name="EMPTY_NAME" classname="Validate error meaasage in create department and sub tier page" time="16.984"/>
+  <testcase name="EMPTY_NAME" classname="Validate error meaasage in create department and sub tier page" time="24.706"/>
+  <testcase name="EMPTY_NAME" classname="Validate error meaasage in create department and sub tier page" time="8.767">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;main-container&quot;]/ng-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a&quot;}&#10;  (Session info: chrome=72.0.3626.119)&#10;  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;I07R7C-GF1025&apos;, ip: &apos;172.28.64.50&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Temp\1\scoped_dir8756_32162}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}&#10;Session ID: 2c2f3ceeb2e75a2bc0a959263431323e&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;main-container&quot;]/ng-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main-container"]/ng-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'I07R7C-GF1025', ip: '172.28.64.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Temp\1\scoped_dir8756_32162}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 2c2f3ceeb2e75a2bc0a959263431323e
+*** Element info: {Using=xpath, value=//*[@id="main-container"]/ng-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a}
+</error>
+    <system-out><![CDATA[
+  @WithoutFillingValue2
+  Scenario Outline:  &amp#27;[90m# src/test/resources/features/negCreateDepartSubTierscenarios.feature:115&amp#27;[0m
+						Validateing error message submit subTier without filling value 
+    &amp#27;[36mThen User click on the Department name bread crumbs link&amp#27;[0m
+    &amp#27;[36mAnd Click on the create sub tier button&amp#27;[0m
+    &amp#27;[36mGiven Enter sub Tier name <AgencyName>&amp#27;[0m
+    &amp#27;[36mAnd Enters month <month>&amp#27;[0m
+    &amp#27;[36mAnd Enters day <day>&amp#27;[0m
+    &amp#27;[36mAnd Enters year <year>&amp#27;[0m
+    &amp#27;[36mAnd Enters Agency code <code>&amp#27;[0m
+    &amp#27;[36mGiven Submit create subTier button without filling value&amp#27;[0m
+    &amp#27;[36mThen Validate subTier error messages <ErrorMessage>&amp#27;[0m
+
+    Examples: 
+
+  @errorScenario1 @WithoutFillingValue2
+  Scenario Outline:                                          &amp#27;[90m# src/test/resources/features/negCreateDepartSubTierscenarios.feature:130&amp#27;[0m
+						Validateing error message submit subTier without filling value 
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mUser click on the Department name bread crumbs link&amp#27;[0m &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.User_click_the_Department_name_bread_crumbs_link()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main-container"]/ng-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'I07R7C-GF1025', ip: '172.28.64.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Temp\1\scoped_dir8756_32162}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 2c2f3ceeb2e75a2bc0a959263431323e
+*** Element info: {Using=xpath, value=//*[@id="main-container"]/ng-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at net.thucydides.core.webdriver.WebDriverFacade.findElement(WebDriverFacade.java:231)
+	at gov.gsa.sam.stepdefinition.NegCreateDepartSubTierscenariosStepDef.User_click_the_Department_name_bread_crumbs_link(NegCreateDepartSubTierscenariosStepDef.java:623)
+	at ?.User click on the Department name bread crumbs link(src/test/resources/features/negCreateDepartSubTierscenarios.feature:119)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mClick on the create sub tier button&amp#27;[0m                  &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.Click_on_the_create_sub_tier_button()&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mEnter sub Tier name&amp#27;[0m&amp#27;[36m&amp#27;[1m &amp#27;[0m                               &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.User_enter_subTier_name(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mEnters month &amp#27;[0m&amp#27;[36m&amp#27;[1m12&amp#27;[0m                                      &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.Enters_month_date(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mEnters day &amp#27;[0m&amp#27;[36m&amp#27;[1m24&amp#27;[0m                                        &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.Enters_day(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mEnters year &amp#27;[0m&amp#27;[36m&amp#27;[1m2020&amp#27;[0m                                     &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.Enters_year(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mEnters Agency code &amp#27;[0m&amp#27;[36m&amp#27;[1m1234&amp#27;[0m                              &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.Enters_Agency_code(String)&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mSubmit create subTier button without filling value&amp#27;[0m &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.Submit_create_subTier_button_without_filling_value()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mValidate subTier error messages &amp#27;[0m&amp#27;[36m&amp#27;[1mCannot Empty&amp#27;[0m        &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.Validate_subTier_error_messages(String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Submit subTier without filling value
+---------------------------------------------------------------------
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP And Click on the create sub tier button
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="primary-content"]g-component/div/div[1]/div[1]/button"}  (Session info: chrome=72.0.3626.119)  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: http://seleniumhq.org/exceptionso_such_element.htmlBuild info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'System info: host: 'I07R7C-GF1025', ip: '172.28.64.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'Driver info: org.openqa.selenium.remote.RemoteWebDriverCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Temp\1\scoped_dir8756_32162}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}Session ID: 2c2f3ceeb2e75a2bc0a959263431323e*** Element info: {Using=xpath, value=//*[@id="primary-content"]g-component/div/div[1]/div[1]/button}For documentation on this error, please visit: http://seleniumhq.org/exceptionso_such_element.htmlBuild info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'System info: host: 'I07R7C-GF1025', ip: '172.28.64.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'Driver info: driver.version: unknown
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: 
+-------------------------------------------------------------------(validate-error-meaasage-in-create-department-and-sub-tier-page;)
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: 
+---------------------------------------------------------------------
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then User click on the Department name bread crumbs link
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main-container"]g-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a"}  (Session info: chrome=72.0.3626.119)  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: http://seleniumhq.org/exceptionso_such_element.htmlBuild info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'System info: host: 'I07R7C-GF1025', ip: '172.28.64.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'Driver info: org.openqa.selenium.remote.RemoteWebDriverCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Temp\1\scoped_dir8756_32162}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}Session ID: 2c2f3ceeb2e75a2bc0a959263431323e*** Element info: {Using=xpath, value=//*[@id="main-container"]g-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a}For documentation on this error, please visit: http://seleniumhq.org/exceptionso_such_element.htmlBuild info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'System info: host: 'I07R7C-GF1025', ip: '172.28.64.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'Driver info: driver.version: unknown
+]]></system-err>
+  </testcase>
+  <testcase name="EMPTY_NAME" classname="Validate error meaasage in create department and sub tier page" time="8.724">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;main-container&quot;]/ng-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a&quot;}&#10;  (Session info: chrome=72.0.3626.119)&#10;  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;I07R7C-GF1025&apos;, ip: &apos;172.28.64.50&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Temp\1\scoped_dir8756_32162}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}&#10;Session ID: 2c2f3ceeb2e75a2bc0a959263431323e&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;main-container&quot;]/ng-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main-container"]/ng-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'I07R7C-GF1025', ip: '172.28.64.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Temp\1\scoped_dir8756_32162}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 2c2f3ceeb2e75a2bc0a959263431323e
+*** Element info: {Using=xpath, value=//*[@id="main-container"]/ng-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a}
+</error>
+    <system-out><![CDATA[
+  @errorScenario1 @WithoutFillingValue2
+  Scenario Outline:                                          &amp#27;[90m# src/test/resources/features/negCreateDepartSubTierscenarios.feature:131&amp#27;[0m
+						Validateing error message submit subTier without filling value 
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mUser click on the Department name bread crumbs link&amp#27;[0m &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.User_click_the_Department_name_bread_crumbs_link()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main-container"]/ng-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'I07R7C-GF1025', ip: '172.28.64.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Temp\1\scoped_dir8756_32162}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 2c2f3ceeb2e75a2bc0a959263431323e
+*** Element info: {Using=xpath, value=//*[@id="main-container"]/ng-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at net.thucydides.core.webdriver.WebDriverFacade.findElement(WebDriverFacade.java:231)
+	at gov.gsa.sam.stepdefinition.NegCreateDepartSubTierscenariosStepDef.User_click_the_Department_name_bread_crumbs_link(NegCreateDepartSubTierscenariosStepDef.java:623)
+	at ?.User click on the Department name bread crumbs link(src/test/resources/features/negCreateDepartSubTierscenarios.feature:119)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mClick on the create sub tier button&amp#27;[0m                  &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.Click_on_the_create_sub_tier_button()&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mEnter sub Tier name&amp#27;[0m&amp#27;[36m&amp#27;[1m Test1&amp#27;[0m                          &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.User_enter_subTier_name(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mEnters month &amp#27;[0m&amp#27;[36m&amp#27;[1m&amp#27;[0m                                        &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.Enters_month_date(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mEnters day &amp#27;[0m&amp#27;[36m&amp#27;[1m&amp#27;[0m                                          &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.Enters_day(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mEnters year &amp#27;[0m&amp#27;[36m&amp#27;[1m&amp#27;[0m                                         &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.Enters_year(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mEnters Agency code &amp#27;[0m&amp#27;[36m&amp#27;[1maaaa&amp#27;[0m                              &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.Enters_Agency_code(String)&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mSubmit create subTier button without filling value&amp#27;[0m &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.Submit_create_subTier_button_without_filling_value()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mValidate subTier error messages &amp#27;[0m&amp#27;[36m&amp#27;[1mDate Required&amp#27;[0m       &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.Validate_subTier_error_messages(String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: 
+---------------------------------------------------------------------
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then User click on the Department name bread crumbs link
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main-container"]g-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a"}  (Session info: chrome=72.0.3626.119)  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: http://seleniumhq.org/exceptionso_such_element.htmlBuild info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'System info: host: 'I07R7C-GF1025', ip: '172.28.64.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'Driver info: org.openqa.selenium.remote.RemoteWebDriverCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Temp\1\scoped_dir8756_32162}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}Session ID: 2c2f3ceeb2e75a2bc0a959263431323e*** Element info: {Using=xpath, value=//*[@id="main-container"]g-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a}For documentation on this error, please visit: http://seleniumhq.org/exceptionso_such_element.htmlBuild info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'System info: host: 'I07R7C-GF1025', ip: '172.28.64.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'Driver info: driver.version: unknown
+]]></system-err>
+  </testcase>
+  <testcase name="EMPTY_NAME" classname="Validate error meaasage in create department and sub tier page" time="8.774">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;main-container&quot;]/ng-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a&quot;}&#10;  (Session info: chrome=72.0.3626.119)&#10;  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;I07R7C-GF1025&apos;, ip: &apos;172.28.64.50&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Temp\1\scoped_dir8756_32162}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}&#10;Session ID: 2c2f3ceeb2e75a2bc0a959263431323e&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;main-container&quot;]/ng-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main-container"]/ng-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'I07R7C-GF1025', ip: '172.28.64.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Temp\1\scoped_dir8756_32162}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 2c2f3ceeb2e75a2bc0a959263431323e
+*** Element info: {Using=xpath, value=//*[@id="main-container"]/ng-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a}
+</error>
+    <system-out><![CDATA[
+  @errorScenario1 @WithoutFillingValue2
+  Scenario Outline:                                          &amp#27;[90m# src/test/resources/features/negCreateDepartSubTierscenarios.feature:133&amp#27;[0m
+						Validateing error message submit subTier without filling value 
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mUser click on the Department name bread crumbs link&amp#27;[0m &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.User_click_the_Department_name_bread_crumbs_link()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main-container"]/ng-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'I07R7C-GF1025', ip: '172.28.64.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Temp\1\scoped_dir8756_32162}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 2c2f3ceeb2e75a2bc0a959263431323e
+*** Element info: {Using=xpath, value=//*[@id="main-container"]/ng-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at net.thucydides.core.webdriver.WebDriverFacade.findElement(WebDriverFacade.java:231)
+	at gov.gsa.sam.stepdefinition.NegCreateDepartSubTierscenariosStepDef.User_click_the_Department_name_bread_crumbs_link(NegCreateDepartSubTierscenariosStepDef.java:623)
+	at ?.User click on the Department name bread crumbs link(src/test/resources/features/negCreateDepartSubTierscenarios.feature:119)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mClick on the create sub tier button&amp#27;[0m                  &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.Click_on_the_create_sub_tier_button()&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mEnter sub Tier name&amp#27;[0m&amp#27;[36m&amp#27;[1m Test3&amp#27;[0m                          &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.User_enter_subTier_name(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mEnters month &amp#27;[0m&amp#27;[36m&amp#27;[1m12&amp#27;[0m                                      &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.Enters_month_date(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mEnters day &amp#27;[0m&amp#27;[36m&amp#27;[1m10&amp#27;[0m                                        &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.Enters_day(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mEnters year &amp#27;[0m&amp#27;[36m&amp#27;[1m2010&amp#27;[0m                                     &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.Enters_year(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mEnters Agency code &amp#27;[0m&amp#27;[36m&amp#27;[1m&amp#27;[0m                                  &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.Enters_Agency_code(String)&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mSubmit create subTier button without filling value&amp#27;[0m &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.Submit_create_subTier_button_without_filling_value()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mValidate subTier error messages &amp#27;[0m&amp#27;[36m&amp#27;[1mAgency empty&amp#27;[0m        &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.Validate_subTier_error_messages(String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: 
+---------------------------------------------------------------------
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then User click on the Department name bread crumbs link
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main-container"]g-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a"}  (Session info: chrome=72.0.3626.119)  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: http://seleniumhq.org/exceptionso_such_element.htmlBuild info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'System info: host: 'I07R7C-GF1025', ip: '172.28.64.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'Driver info: org.openqa.selenium.remote.RemoteWebDriverCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Temp\1\scoped_dir8756_32162}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}Session ID: 2c2f3ceeb2e75a2bc0a959263431323e*** Element info: {Using=xpath, value=//*[@id="main-container"]g-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a}For documentation on this error, please visit: http://seleniumhq.org/exceptionso_such_element.htmlBuild info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'System info: host: 'I07R7C-GF1025', ip: '172.28.64.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'Driver info: driver.version: unknown
+]]></system-err>
+  </testcase>
+  <testcase name="EMPTY_NAME" classname="Validate error meaasage in create department and sub tier page" time="8.749">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;main-container&quot;]/ng-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a&quot;}&#10;  (Session info: chrome=72.0.3626.119)&#10;  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;I07R7C-GF1025&apos;, ip: &apos;172.28.64.50&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Temp\1\scoped_dir8756_32162}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}&#10;Session ID: 2c2f3ceeb2e75a2bc0a959263431323e&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;main-container&quot;]/ng-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main-container"]/ng-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'I07R7C-GF1025', ip: '172.28.64.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Temp\1\scoped_dir8756_32162}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 2c2f3ceeb2e75a2bc0a959263431323e
+*** Element info: {Using=xpath, value=//*[@id="main-container"]/ng-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a}
+</error>
+    <system-out><![CDATA[
+  @WithFillingValue2
+  Scenario Outline:  &amp#27;[90m# src/test/resources/features/negCreateDepartSubTierscenarios.feature:145&amp#27;[0m
+								Validateing error message submit subTier by filling value 
+    &amp#27;[36mThen User click on the Department name bread crumbs link&amp#27;[0m
+    &amp#27;[36mAnd Click on the create sub tier button&amp#27;[0m
+    &amp#27;[36mGiven Enter sub Tier name <AgencyName>&amp#27;[0m
+    &amp#27;[36mAnd Enters month <month>&amp#27;[0m
+    &amp#27;[36mAnd Enters day <day>&amp#27;[0m
+    &amp#27;[36mAnd Enters year <year>&amp#27;[0m
+    &amp#27;[36mAnd Enters Agency code <code>&amp#27;[0m
+    &amp#27;[36mGiven Submit create subTier button without filling value&amp#27;[0m
+    &amp#27;[36mThen Validate subTier error messages <ErrorMessage>&amp#27;[0m
+
+    Examples: 
+
+  @errorScenario1 @WithFillingValue2
+  Scenario Outline:                                          &amp#27;[90m# src/test/resources/features/negCreateDepartSubTierscenarios.feature:161&amp#27;[0m
+								Validateing error message submit subTier by filling value 
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mUser click on the Department name bread crumbs link&amp#27;[0m &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.User_click_the_Department_name_bread_crumbs_link()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main-container"]/ng-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'I07R7C-GF1025', ip: '172.28.64.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Temp\1\scoped_dir8756_32162}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 2c2f3ceeb2e75a2bc0a959263431323e
+*** Element info: {Using=xpath, value=//*[@id="main-container"]/ng-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at net.thucydides.core.webdriver.WebDriverFacade.findElement(WebDriverFacade.java:231)
+	at gov.gsa.sam.stepdefinition.NegCreateDepartSubTierscenariosStepDef.User_click_the_Department_name_bread_crumbs_link(NegCreateDepartSubTierscenariosStepDef.java:623)
+	at ?.User click on the Department name bread crumbs link(src/test/resources/features/negCreateDepartSubTierscenarios.feature:149)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mClick on the create sub tier button&amp#27;[0m                  &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.Click_on_the_create_sub_tier_button()&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mEnter sub Tier name&amp#27;[0m&amp#27;[36m&amp#27;[1m Test1&amp#27;[0m                          &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.User_enter_subTier_name(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mEnters month &amp#27;[0m&amp#27;[36m&amp#27;[1m12&amp#27;[0m                                      &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.Enters_month_date(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mEnters day &amp#27;[0m&amp#27;[36m&amp#27;[1m30&amp#27;[0m                                        &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.Enters_day(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mEnters year &amp#27;[0m&amp#27;[36m&amp#27;[1m2019&amp#27;[0m                                     &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.Enters_year(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mEnters Agency code &amp#27;[0m&amp#27;[36m&amp#27;[1m;;;;&amp#27;[0m                              &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.Enters_Agency_code(String)&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mSubmit create subTier button without filling value&amp#27;[0m &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.Submit_create_subTier_button_without_filling_value()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mValidate subTier error messages &amp#27;[0m&amp#27;[36m&amp#27;[1mSubTierAgency&amp#27;[0m       &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.Validate_subTier_error_messages(String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Submit subTier by filling value
+---------------------------------------------------------------------
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then User click on the Department name bread crumbs link
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main-container"]g-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a"}  (Session info: chrome=72.0.3626.119)  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: http://seleniumhq.org/exceptionso_such_element.htmlBuild info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'System info: host: 'I07R7C-GF1025', ip: '172.28.64.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'Driver info: org.openqa.selenium.remote.RemoteWebDriverCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Temp\1\scoped_dir8756_32162}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}Session ID: 2c2f3ceeb2e75a2bc0a959263431323e*** Element info: {Using=xpath, value=//*[@id="main-container"]g-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a}For documentation on this error, please visit: http://seleniumhq.org/exceptionso_such_element.htmlBuild info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'System info: host: 'I07R7C-GF1025', ip: '172.28.64.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'Driver info: driver.version: unknown
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: 
+-------------------------------------------------------------------(validate-error-meaasage-in-create-department-and-sub-tier-page;)
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: 
+---------------------------------------------------------------------
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then User click on the Department name bread crumbs link
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main-container"]g-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a"}  (Session info: chrome=72.0.3626.119)  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: http://seleniumhq.org/exceptionso_such_element.htmlBuild info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'System info: host: 'I07R7C-GF1025', ip: '172.28.64.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'Driver info: org.openqa.selenium.remote.RemoteWebDriverCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Temp\1\scoped_dir8756_32162}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}Session ID: 2c2f3ceeb2e75a2bc0a959263431323e*** Element info: {Using=xpath, value=//*[@id="main-container"]g-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a}For documentation on this error, please visit: http://seleniumhq.org/exceptionso_such_element.htmlBuild info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'System info: host: 'I07R7C-GF1025', ip: '172.28.64.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'Driver info: driver.version: unknown
+]]></system-err>
+  </testcase>
+  <testcase name="Submit subTier without filling value" classname="Validate error meaasage in create department and sub tier page" time="22.469">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;primary-content&quot;]/ng-component/div/div[1]/div[1]/button&quot;}&#10;  (Session info: chrome=72.0.3626.119)&#10;  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;I07R7C-GF1025&apos;, ip: &apos;172.28.64.50&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Temp\1\scoped_dir8756_32162}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}&#10;Session ID: 2c2f3ceeb2e75a2bc0a959263431323e&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;primary-content&quot;]/ng-component/div/div[1]/div[1]/button}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="primary-content"]/ng-component/div/div[1]/div[1]/button"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'I07R7C-GF1025', ip: '172.28.64.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Temp\1\scoped_dir8756_32162}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 2c2f3ceeb2e75a2bc0a959263431323e
+*** Element info: {Using=xpath, value=//*[@id="primary-content"]/ng-component/div/div[1]/div[1]/button}
+</error>
+    <system-out><![CDATA[
+  @errorScenario1 @WithoutFillingValue1
+  Scenario: Submit subTier without filling value                   &amp#27;[90m# src/test/resources/features/negCreateDepartSubTierscenarios.feature:107&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser Click on the search federal hierarchy adminstractor&amp#27;[0m &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.User_Click_on_the_search_federal_hierarchy_adminstractor()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on the first link&amp#27;[0m                                    &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.Click_on_the_first_link()&amp#27;[0m
+    &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mClick on the create sub tier button&amp#27;[0m                        &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.Click_on_the_create_sub_tier_button()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="primary-content"]/ng-component/div/div[1]/div[1]/button"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'I07R7C-GF1025', ip: '172.28.64.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Temp\1\scoped_dir8756_32162}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 2c2f3ceeb2e75a2bc0a959263431323e
+*** Element info: {Using=xpath, value=//*[@id="primary-content"]/ng-component/div/div[1]/div[1]/button}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at net.thucydides.core.webdriver.WebDriverFacade.findElement(WebDriverFacade.java:231)
+	at gov.gsa.sam.stepdefinition.NegCreateDepartSubTierscenariosStepDef.Click_on_the_create_sub_tier_button(NegCreateDepartSubTierscenariosStepDef.java:629)
+	at ?.Click on the create sub tier button(src/test/resources/features/negCreateDepartSubTierscenarios.feature:110)
+&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mSubmit create subTier button without filling value&amp#27;[0m       &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.Submit_create_subTier_button_without_filling_value()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mReading sub tier error message&amp#27;[0m                             &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.Reading_sub_tier_error_message()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: 
+----------------------------------------------------------------------------
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Submit subTier without filling value
+-------------------------------------------------------------------(validate-error-meaasage-in-create-department-and-sub-tier-page;submit-subtier-without-filling-value)
+[main] INFO gov.gsa.sam.stepdefinition.NegCreateDepartSubTierscenariosStepDef - User click on the search button
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Submit subTier without filling value
+---------------------------------------------------------------------
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP And Click on the create sub tier button
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="primary-content"]g-component/div/div[1]/div[1]/button"}  (Session info: chrome=72.0.3626.119)  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: http://seleniumhq.org/exceptionso_such_element.htmlBuild info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'System info: host: 'I07R7C-GF1025', ip: '172.28.64.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'Driver info: org.openqa.selenium.remote.RemoteWebDriverCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Temp\1\scoped_dir8756_32162}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}Session ID: 2c2f3ceeb2e75a2bc0a959263431323e*** Element info: {Using=xpath, value=//*[@id="primary-content"]g-component/div/div[1]/div[1]/button}For documentation on this error, please visit: http://seleniumhq.org/exceptionso_such_element.htmlBuild info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'System info: host: 'I07R7C-GF1025', ip: '172.28.64.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'Driver info: driver.version: unknown
+]]></system-err>
+  </testcase>
+  <testcase name="Submit subTier by filling value" classname="Validate error meaasage in create department and sub tier page" time="8.754">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;main-container&quot;]/ng-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a&quot;}&#10;  (Session info: chrome=72.0.3626.119)&#10;  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;I07R7C-GF1025&apos;, ip: &apos;172.28.64.50&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Temp\1\scoped_dir8756_32162}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}&#10;Session ID: 2c2f3ceeb2e75a2bc0a959263431323e&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;main-container&quot;]/ng-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main-container"]/ng-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'I07R7C-GF1025', ip: '172.28.64.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Temp\1\scoped_dir8756_32162}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 2c2f3ceeb2e75a2bc0a959263431323e
+*** Element info: {Using=xpath, value=//*[@id="main-container"]/ng-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a}
+</error>
+    <system-out><![CDATA[
+  @errorScenario1 @WithFillingValue1
+  Scenario: Submit subTier by filling value                  &amp#27;[90m# src/test/resources/features/negCreateDepartSubTierscenarios.feature:136&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mUser click on the Department name bread crumbs link&amp#27;[0m &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.User_click_the_Department_name_bread_crumbs_link()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main-container"]/ng-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'I07R7C-GF1025', ip: '172.28.64.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Temp\1\scoped_dir8756_32162}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 2c2f3ceeb2e75a2bc0a959263431323e
+*** Element info: {Using=xpath, value=//*[@id="main-container"]/ng-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at net.thucydides.core.webdriver.WebDriverFacade.findElement(WebDriverFacade.java:231)
+	at gov.gsa.sam.stepdefinition.NegCreateDepartSubTierscenariosStepDef.User_click_the_Department_name_bread_crumbs_link(NegCreateDepartSubTierscenariosStepDef.java:623)
+	at ?.User click on the Department name bread crumbs link(src/test/resources/features/negCreateDepartSubTierscenarios.feature:137)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mClick on the create sub tier button&amp#27;[0m                  &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.Click_on_the_create_sub_tier_button()&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mSubmit create subTier button by filling value&amp#27;[0m      &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.create_subTier_button_by_filling_value()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mReading sub tier values error message&amp#27;[0m                &amp#27;[90m# NegCreateDepartSubTierscenariosStepDef.Reading_sub_tier_values_error_message()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: 
+---------------------------------------------------------------------
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then User click on the Department name bread crumbs link
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main-container"]g-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a"}  (Session info: chrome=72.0.3626.119)  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: http://seleniumhq.org/exceptionso_such_element.htmlBuild info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'System info: host: 'I07R7C-GF1025', ip: '172.28.64.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'Driver info: org.openqa.selenium.remote.RemoteWebDriverCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Temp\1\scoped_dir8756_32162}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}Session ID: 2c2f3ceeb2e75a2bc0a959263431323e*** Element info: {Using=xpath, value=//*[@id="main-container"]g-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a}For documentation on this error, please visit: http://seleniumhq.org/exceptionso_such_element.htmlBuild info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'System info: host: 'I07R7C-GF1025', ip: '172.28.64.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'Driver info: driver.version: unknown
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Submit subTier by filling value
+-------------------------------------------------------------------(validate-error-meaasage-in-create-department-and-sub-tier-page;submit-subtier-by-filling-value)
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Submit subTier by filling value
+---------------------------------------------------------------------
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then User click on the Department name bread crumbs link
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main-container"]g-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a"}  (Session info: chrome=72.0.3626.119)  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: http://seleniumhq.org/exceptionso_such_element.htmlBuild info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'System info: host: 'I07R7C-GF1025', ip: '172.28.64.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'Driver info: org.openqa.selenium.remote.RemoteWebDriverCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Temp\1\scoped_dir8756_32162}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}Session ID: 2c2f3ceeb2e75a2bc0a959263431323e*** Element info: {Using=xpath, value=//*[@id="main-container"]g-component/div/div/div[2]/page/div/div/div[1]/div/sam-breadcrumbs/ul/li[3]/a}For documentation on this error, please visit: http://seleniumhq.org/exceptionso_such_element.htmlBuild info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'System info: host: 'I07R7C-GF1025', ip: '172.28.64.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'Driver info: driver.version: unknown
+]]></system-err>
+  </testcase>
+  <testcase name="Browser close" classname="Validate error meaasage in create department and sub tier page" time="6.515"/>
+  <testcase name="Log into the GSA website as createDepartment" classname="Validate error meaasage in office page" time="101.265"/>
+  <testcase name="Validation on empty field in request office page" classname="Validate error meaasage in office page" time="80.366"/>
+  <testcase name="Validation on Funding office types error messages" classname="Validate error meaasage in office page" time="96.207"/>
+  <testcase name="Validation on Funding office types error messages" classname="Validate error meaasage in office page" time="95.796"/>
+  <testcase name="Validation on Funding office types error messages" classname="Validate error meaasage in office page" time="99.218"/>
+  <testcase name="Validation on Funding office types error messages" classname="Validate error meaasage in office page" time="102.952"/>
+  <testcase name="Validation on Funding office types error messages" classname="Validate error meaasage in office page" time="96.879"/>
+  <testcase name="Validation on Funding office types error messages" classname="Validate error meaasage in office page" time="95.078"/>
+  <testcase name="Validation on Funding office types error messages" classname="Validate error meaasage in office page" time="95.083"/>
+  <testcase name="Validation on Funding office types error messages" classname="Validate error meaasage in office page" time="96.516"/>
+  <testcase name="Validation on Funding office types error messages" classname="Validate error meaasage in office page" time="95.198"/>
+  <testcase name="Validation on Funding office types error messages" classname="Validate error meaasage in office page" time="173.285"/>
+  <testcase name="Validation on office address error messages" classname="Validate error meaasage in office page" time="253.017">
+    <failure message="expected:&lt;[T96]&gt; but was:&lt;[]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[T96]> but was:<[]>
+]]></failure>
+    <system-out><![CDATA[
+  @OfficeAddress4
+  Scenario Outline: Validation on office address error messages &amp#27;[90m# src/test/resources/features/negRequestOffice.feature:243&amp#27;[0m
+    &amp#27;[36mAnd Scroll up&amp#27;[0m
+    &amp#27;[36mGiven User click on subTier breadcrumb link&amp#27;[0m
+    &amp#27;[36mGiven Create office submit button&amp#27;[0m
+    &amp#27;[36mAnd The user enters office details Name <officeDetails>&amp#27;[0m
+    &amp#27;[36mAnd The user enters create office start month <startMonth>&amp#27;[0m
+    &amp#27;[36mAnd The user enters create office start day <startDay>&amp#27;[0m
+    &amp#27;[36mAnd The user enters create office start year <startYear>&amp#27;[0m
+    &amp#27;[36mAnd Select Poc check box&amp#27;[0m
+    &amp#27;[36mAnd The user select office type Financial Awards <FinancialAwards>&amp#27;[0m
+    &amp#27;[36mAnd Click on the mailing address plus symbol&amp#27;[0m
+    &amp#27;[36mAnd The user enters street address <address>&amp#27;[0m
+    &amp#27;[36mAnd The user enters country <country>&amp#27;[0m
+    &amp#27;[36mAnd The enters zip <Zip>&amp#27;[0m
+    &amp#27;[36mAnd The enters city <city>&amp#27;[0m
+    &amp#27;[36mAnd The enters state <state>&amp#27;[0m
+    &amp#27;[36mAnd Select address type&amp#27;[0m
+    &amp#27;[36mAnd Click on the first plus symbol&amp#27;[0m
+    &amp#27;[36mAnd The user enters awards office TAC3 street address <address3>&amp#27;[0m
+    &amp#27;[36mAnd The user enters TAC3 country <country3>&amp#27;[0m
+    &amp#27;[36mAnd The enters TAC3 zip <Zip3>&amp#27;[0m
+    &amp#27;[36mAnd The enters TAC3 city <officeCity3>&amp#27;[0m
+    &amp#27;[36mAnd The enters TAC3 state <state3>&amp#27;[0m
+    &amp#27;[36mAnd The user enters awards office TAC2 street address <address2>&amp#27;[0m
+    &amp#27;[36mAnd The user enters TAC2 country <country2>&amp#27;[0m
+    &amp#27;[36mAnd The enters TAC2 zip <Zip2>&amp#27;[0m
+    &amp#27;[36mAnd The enters TAC2 city <officeCity2>&amp#27;[0m
+    &amp#27;[36mAnd The enters TAC2 state <state2>&amp#27;[0m
+    &amp#27;[36mThen Shipping address TAC2 cross symbol is visible&amp#27;[0m
+    &amp#27;[36mThen Billing address TAC3 cross symbol is visible&amp#27;[0m
+    &amp#27;[36mAnd Click on the second cross button&amp#27;[0m
+    &amp#27;[36mThen The user click on submit create office button&amp#27;[0m
+    &amp#27;[36mThen The user click on Confirmation create office button&amp#27;[0m
+    &amp#27;[36mAnd Click on edit button on confirmation office Request page&amp#27;[0m
+    &amp#27;[36mAnd Deselect Financial Assistance Awards&amp#27;[0m
+    &amp#27;[36mAnd The user select office type contract Awards <contractAwards>&amp#27;[0m
+    &amp#27;[36mAnd The user select office type contract funding  <Contractfunding>&amp#27;[0m
+    &amp#27;[36mAnd The user enters awards office TAC3 street address <address3>&amp#27;[0m
+    &amp#27;[36mAnd The user enters TAC3 country <country3>&amp#27;[0m
+    &amp#27;[36mAnd The enters TAC3 zip <Zip3>&amp#27;[0m
+    &amp#27;[36mAnd The enters TAC3 city <officeCity3>&amp#27;[0m
+    &amp#27;[36mAnd The enters TAC3 state <state3>&amp#27;[0m
+    &amp#27;[36mThen Shipping address word Required is visible&amp#27;[0m
+    &amp#27;[36mThen Billing address word Required is visible&amp#27;[0m
+    &amp#27;[36mThen Shipping address TAC2 cross symbol is visible&amp#27;[0m
+    &amp#27;[36mThen Billing address TAC3 cross symbol is visible&amp#27;[0m
+    &amp#27;[36mThen The user click on submit create office button&amp#27;[0m
+    &amp#27;[36mThen The user click on Confirmation create office button&amp#27;[0m
+    &amp#27;[36mAnd Click on close button on office Request page&amp#27;[0m
+    &amp#27;[36mThen Check request office email notitication&amp#27;[0m
+
+    Examples: 
+
+  @negativeOffice @OfficeAddress4
+  Scenario Outline: Validation on office address error messages  &amp#27;[90m# src/test/resources/features/negRequestOffice.feature:300&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mScroll up&amp#27;[0m                                                &amp#27;[90m# FeedsStepDef.Scroll_up()&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser click on subTier breadcrumb link&amp#27;[0m                  &amp#27;[90m# NegRequestOfficeStepDef.User_click_on_subTier_breadcrumb_link()&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mCreate office submit button&amp#27;[0m                            &amp#27;[90m# CreateOfficeStepDef.Create_office_submit_button()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user enters office details Name &amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m                     &amp#27;[90m# CreateOfficeStepDef.The_user_enters_office_details_Name(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user enters create office start month &amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m               &amp#27;[90m# CreateOfficeStepDef.The_user_enters_create_office_start_month(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user enters create office start day &amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m                 &amp#27;[90m# CreateOfficeStepDef.The_user_enters_create_office_start_day(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user enters create office start year &amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m                &amp#27;[90m# CreateOfficeStepDef.The_user_enters_create_office_start_year(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mSelect Poc check box&amp#27;[0m                                     &amp#27;[90m# CreateOfficeStepDef.Select_Poc_check_box()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user select office type Financial Awards &amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m            &amp#27;[90m# CreateOfficeStepDef.The_user_select_office_type_grants(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on the mailing address plus symbol&amp#27;[0m                 &amp#27;[90m# NegRequestOfficeStepDef.Click_on_the_mailing_address_plus_symbol()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user enters street address &amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m                          &amp#27;[90m# CreateOfficeStepDef.The_user_enters_street_address(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user enters country &amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m                                 &amp#27;[90m# CreateOfficeStepDef.The_user_enters_country(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe enters zip &amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m                                          &amp#27;[90m# CreateOfficeStepDef.The_enters_zip(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe enters city &amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m                                         &amp#27;[90m# CreateOfficeStepDef.The_enters_city(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe enters state &amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m                                        &amp#27;[90m# CreateOfficeStepDef.The_enters_state(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mSelect address type&amp#27;[0m                                      &amp#27;[90m# NegRequestOfficeStepDef.Select_address_type()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on the first plus symbol&amp#27;[0m                           &amp#27;[90m# NegRequestOfficeStepDef.Click_on_the_first_plus_symbol()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user enters awards office TAC3 street address &amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m       &amp#27;[90m# CreateOfficeStepDef.The_user_entersawards_office_street_address_TAC3(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user enters TAC3 country &amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m                            &amp#27;[90m# CreateOfficeStepDef.The_user_enters_country_TAC3(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe enters TAC3 zip &amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m                                     &amp#27;[90m# CreateOfficeStepDef.The_enters_zip_TAC3(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe enters TAC3 city &amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m                                    &amp#27;[90m# CreateOfficeStepDef.The_enters_city_TAC3(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe enters TAC3 state &amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m                                   &amp#27;[90m# CreateOfficeStepDef.The_enters_state_TAC3(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user enters awards office TAC2 street address &amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m       &amp#27;[90m# CreateOfficeStepDef.The_user_enters_awards_street_address_TAC2(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user enters TAC2 country &amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m                            &amp#27;[90m# CreateOfficeStepDef.The_user_enters_country_TAC2(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe enters TAC2 zip &amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m                                     &amp#27;[90m# CreateOfficeStepDef.The_enters_zip_TAC2(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe enters TAC2 city &amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m                                    &amp#27;[90m# CreateOfficeStepDef.The_enters_city_TAC2(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe enters TAC2 state &amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m                                   &amp#27;[90m# CreateOfficeStepDef.The_enters_state_TAC2(String)&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mShipping address TAC2 cross symbol is visible&amp#27;[0m           &amp#27;[90m# NegRequestOfficeStepDef.Shipping_address_TAC2_cross_symbol_is_visible()&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mBilling address TAC3 cross symbol is visible&amp#27;[0m            &amp#27;[90m# NegRequestOfficeStepDef.Billing_address_TAC3_cross_symbol_is_visible()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on the second cross button&amp#27;[0m                         &amp#27;[90m# NegRequestOfficeStepDef.Click_on_the_second_cross_button()&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user click on submit create office button&amp#27;[0m           &amp#27;[90m# CreateOfficeStepDef.The_user_click_on_submit_create_office_button()&amp#27;[0m
+Sumit button on Reuest office page::::::::::::::::::::::::::::::::::::
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mThe user click on Confirmation create office button&amp#27;[0m     &amp#27;[90m# CreateOfficeStepDef.The_user_click_on_Confirmation_create_office_button()&amp#27;[0m
+      &amp#27;[31morg.junit.ComparisonFailure: expected:<[T96]> but was:<[]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at gov.gsa.sam.stepdefinition.CreateOfficeStepDef.The_user_click_on_Confirmation_create_office_button(CreateOfficeStepDef.java:2056)
+	at ?.The user click on Confirmation create office button(src/test/resources/features/negRequestOffice.feature:277)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mClick on edit button on confirmation office Request page&amp#27;[0m &amp#27;[90m# NegRequestOfficeStepDef.Click_on_edit_button_on_confirmation_office_Request_page()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mDeselect Financial Assistance Awards&amp#27;[0m                     &amp#27;[90m# NegRequestOfficeStepDef.Deselect_Financial_Assistance_Awards()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mThe user select office type contract Awards &amp#27;[0m&amp#27;[36m&amp#27;[1m&amp#27;[0m             &amp#27;[90m# CreateOfficeStepDef.The_user_select_office_type_contracting(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mThe user select office type contract funding &amp#27;[0m&amp#27;[36m&amp#27;[1m &amp#27;[0m           &amp#27;[90m# CreateOfficeStepDef.The_user_select_office_type_other(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mThe user enters awards office TAC3 street address &amp#27;[0m&amp#27;[36m&amp#27;[1m&amp#27;[0m       &amp#27;[90m# CreateOfficeStepDef.The_user_entersawards_office_street_address_TAC3(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mThe user enters TAC3 country &amp#27;[0m&amp#27;[36m&amp#27;[1m&amp#27;[0m                            &amp#27;[90m# CreateOfficeStepDef.The_user_enters_country_TAC3(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mThe enters TAC3 zip &amp#27;[0m&amp#27;[36m&amp#27;[1m&amp#27;[0m                                     &amp#27;[90m# CreateOfficeStepDef.The_enters_zip_TAC3(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mThe enters TAC3 city &amp#27;[0m&amp#27;[36m&amp#27;[1m&amp#27;[0m                                    &amp#27;[90m# CreateOfficeStepDef.The_enters_city_TAC3(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mThe enters TAC3 state &amp#27;[0m&amp#27;[36m&amp#27;[1m&amp#27;[0m                                   &amp#27;[90m# CreateOfficeStepDef.The_enters_state_TAC3(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mShipping address word Required is visible&amp#27;[0m               &amp#27;[90m# NegRequestOfficeStepDef.Shipping_address_word_Required_is_visible()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mBilling address word Required is visible&amp#27;[0m                &amp#27;[90m# NegRequestOfficeStepDef.Billing_address_word_Required_is_visible()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mShipping address TAC2 cross symbol is visible&amp#27;[0m           &amp#27;[90m# NegRequestOfficeStepDef.Shipping_address_TAC2_cross_symbol_is_visible()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mBilling address TAC3 cross symbol is visible&amp#27;[0m            &amp#27;[90m# NegRequestOfficeStepDef.Billing_address_TAC3_cross_symbol_is_visible()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mThe user click on submit create office button&amp#27;[0m           &amp#27;[90m# CreateOfficeStepDef.The_user_click_on_submit_create_office_button()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mThe user click on Confirmation create office button&amp#27;[0m     &amp#27;[90m# CreateOfficeStepDef.The_user_click_on_Confirmation_create_office_button()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mClick on close button on office Request page&amp#27;[0m             &amp#27;[90m# CreateOfficeStepDef.Click_on_close_button_on_office_Request_page()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mCheck request office email notitication&amp#27;[0m                 &amp#27;[90m# CreateOfficeStepDef.Check_request_office_email_notitication()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Validation on Funding office types error messages
+----------------------------------------------------------------------------
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Validation on office address error messages
+-------------------------------------------------------------------(validate-error-meaasage-in-office-page;validation-on-office-address-error-messages)
+[main] INFO gov.gsa.sam.stepdefinition.FeedsStepDef - Scroll down
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - SubTierBreadCrumb
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - Enter into login method:
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - fh: FEDERAL HIERARCHY
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - fhText: Please provide necessary details required for the office
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - officeDetails: Office Details
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - officeNameRqt: Required
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - officeNameText: Provide the office name. Office name has to be less than 35 characters, including spaces.
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - OfficeNameText2: Provide the office name. Office name has to be less than 35 characters, including spaces.
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - OfficeName1957
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - enters create office name
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - ParentDepartment: Parent Department and Sub-Tier
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - DeptIndAgency: Dept/Ind Agency
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - DeptIndAgency1: Department0.10280681
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - CGAC: CGAC
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - CGAC: 11
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - SubTier: Sub-Tier
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - SubTier1: Pi18_ip
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - AgencyCode: Agency Code
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - AgencyCode: 18IP
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - Start date: Start Date
+Required
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - Start date1: Start Date
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - Str========Start Date Required
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - Start date Text: Provide the start date for the office. The start date has to be current or in the future
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - Start date Text 1: Provide the start date for the office. The start date has to be current or in the future
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - Start date Month TextBox: Month
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - Start date Month TextBox 1: Month
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - startMonth3
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - enters start month 
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - Start : Day
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - Start Day: Day
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - startDay
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - enters start day 
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - Start Year : Year
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - Start Year: Year
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - StartYear1: 2019
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - enters start year 
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - **************************POC****************************************************
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - FinancialAwards:
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - FinancialAwardsCheckBox: false
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - FinancialAwardsText : Financial Assistance Awards
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - FinancialAwardsText 1: Financial Assistance Awards
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - FinancialAwardsStartOptional : Start Date (optional)
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - FinancialAwardsStartOptional 1: Start Date (optional)
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - FinancialAwardsStart : The office type start date can be empty or be before the actual office start date, but cannot be after the office end date
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - FinancialAwardsStart 1: The office type start date can be empty or be before the actual office start date, but cannot be after the office end date
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - enters grants 
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - mailing address plus symbol 
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - address :123 Lee Way
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - OfficeAddress : Office Address
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - OfficeAddress 1: Office Address
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - MailingAddress : Mailing Address (TAC1)
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - MailingAddress 1: Mailing Address (TAC1)
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - Str========Mailing Address (TAC1)
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - Required : Required
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - Required 1: Required
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - TAC1Street : Street address 1
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - TAC1Street 1: Street address 1
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - enters officeStreet 
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - country: USA
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - Country : Country
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - Country 1: Country
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - country:
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - Boolean::true
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - enters country 
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - Zip: 36310
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - Zip : Zip
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - Zip 1: Zip
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - enters officeZip 
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - city:
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - City : City
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - City 1: City
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - City1234: 
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - City:::::::::::::::::::::::::::: 
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - enters officeCity 
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - State:
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - State : State/Province
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - State 1: State/Province
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - enters officeState 
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - Select address type
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - CClick on the first plus symbol
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - address3: 
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - BillingAddressTAC : Billing Address (TAC3)
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - BillingAddressTAC 1: Billing Address (TAC3)
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - Str========Billing Address (TAC3)
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - TAC3Street : Street address 1
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - TAC3Street 1: Street address 1
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - enters officeStreet 
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - country3: 
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - CountryTAC2 : Country
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - CountryTAC2 1: Country
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - country:
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - Boolean::true
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - enters country 
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - ZipTAC3 : Zip
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - ZipTAC3 1: Zip
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - enters officeZip 
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - city:
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - CityTAC3 : City
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - CityTAC3 1: City
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - City1234: 
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - City:::::::::::::::::::::::::::: 
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - enters officeCity 
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - State:
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - State : State/Province
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - State 1: State/Province
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - enters officeState 
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - address2:
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - ShippingAddressTAC : Shipping Address (TAC2)
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - ShippingAddressTAC 1: Shipping Address (TAC2)
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - Str========Shipping Address (TAC2)
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - Streetaddress1 : Street address 1
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - TAC1Street 1: Street address 1
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - enters officeStreet 
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - country2:
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - Country : Country
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - Country 1: Country
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - country:
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - Boolean::true
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - enters country 
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - Zip2:
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - Zip : null
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - Zip 1: Zip
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - enters officeZip 
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - officeCity2: 
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - city:
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - City : City
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - City 1: City
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - City1234: 
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - City:::::::::::::::::::::::::::: 
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - enters officeCity 
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - state2:
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - State : State/Province
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - State 1: State/Province
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - enters officeState 
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - Shipping address TAC2 not visiabe cross symbolorg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="main-container"]/ng-component/div/div/div[2]/page/div/div/div[2]/div/div[1]/div[2]/div/div[2]/div[2]/sam-address-form-v2/div/div[1]/h3/i[2] (tried for 30 second(s) with 500 milliseconds interval)
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - Billing address TAC3 cross symbol true
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - Click on the second cross symbol
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - Click on the second cross symbol: true
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - FEDERALHIERARCHY : FEDERAL HIERARCHY
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - FEDERALHIERARCHY 1: FEDERAL HIERARCHY
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - ConfirmBelowDetails : Confirm below details
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - ConfirmBelowDetails 1: Confirm below details
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - OfficeDetail : Office Details
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - OfficeDetail 1: Office Details
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - OfficeName : Office Name:
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - OfficeName 1: Office Name:
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - OfficeNameText : 957
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - OfficeNameText 1: 957
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - DeptIndAgency : Dept/Ind Agency:
+Department0.10280681
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - DeptIndAgency1: Dept/Ind Agency:
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - DeptIndAgencyText : Department0.10280681
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - DeptIndAgencyText1: Department0.10280681
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - CGAC : CGAC:
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - CGAC1: CGAC:
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - CGACText : 11
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - CGACText1: 11
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - SubTier : Sub-Tier:
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - SubTier 1: Sub-Tier:
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - SubTierText : Pi18_ip
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - SubTierText 1: Pi18_ip
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - AgencyCode : Agency Code:
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - AgencyCode 1: Agency Code:
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - AgencyCodeText : 18IP
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - AgencyCodeText 1: 18IP
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - StartDate : Start Date:
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - StartDate 1: Start Date:
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - StartDate : Mar 15, 2019
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - EndDate : End Date:
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - EndDate1: End Date:
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - EndDateText : 
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - Shortname : Short Name:
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - Shortname 1: Short Name:
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - ShortnameText : 
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - ShortnameText 1: 
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - OfficeRegion : Office Region:
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - OfficeRegion 1: Office Region:
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - OfficeRegionText : 
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - OfficeRegionText 1: 
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - OfficeAAC : Office AAC:
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - OfficeAAC 1: Office AAC:
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - OfficeAACText : 
+[main] INFO gov.gsa.sam.stepdefinition.CreateOfficeStepDef - OfficeAACText 1: T96
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Validation on office address error messages
+--------------------------------------------------------------------------
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then The user click on Confirmation create office button
+[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - expected:<[T96]> but was:<[]>
+]]></system-err>
+  </testcase>
+</testsuite>

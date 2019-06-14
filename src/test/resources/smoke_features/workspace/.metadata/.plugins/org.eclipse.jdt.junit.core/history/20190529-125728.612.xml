@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CucumberTestSuite" project="rolemangement-selenium" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="gov.gsa.sam.rms.stepdefinition.CucumberTestSuite" time="64.993">
+    <testsuite name="Feature: Login functionality" time="64.993">
+      <testcase name="dra logs into common Worspace page" classname="Login functionality" time="64.993"/>
+    </testsuite>
+  </testsuite>
+</testrun>

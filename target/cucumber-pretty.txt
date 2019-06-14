@@ -1,0 +1,87 @@
+@SmokeTest
+Feature: High leavel Smoketing
+
+  @SmokeTest @otp1
+  Scenario: Log into the GSA website                  [90m# src/test/resources/smoke_features/federalHierarchy.feature:6[0m
+    [31mGiven [0m[31muser has an account in login dot gov domain[0m [90m# FederalHierarchyStepDef.user_has_an_account_in_login_dot_gov_domain()[0m
+      [31morg.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 76
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'I04TCC-GF3X120', ip: '172.28.16.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00FC7B13+1473299]
+	Ordinal0 [0x00F4AC61+961633]
+	Ordinal0 [0x00ED41A3+475555]
+	Ordinal0 [0x00E6F365+62309]
+	Ordinal0 [0x00E6BC77+48247]
+	Ordinal0 [0x00E88FD9+167897]
+	Ordinal0 [0x00E88BAD+166829]
+	Ordinal0 [0x00E872BB+160443]
+	Ordinal0 [0x00E70AE6+68326]
+	Ordinal0 [0x00E71A80+72320]
+	Ordinal0 [0x00E71A19+72217]
+	Ordinal0 [0x00F64A27+1067559]
+	GetHandleVerifier [0x010666F5+506677]
+	GetHandleVerifier [0x01066490+506064]
+	GetHandleVerifier [0x0106D038+533624]
+	GetHandleVerifier [0x01066ECA+508682]
+	Ordinal0 [0x00F5C116+1032470]
+	Ordinal0 [0x00F5BF8F+1032079]
+	Ordinal0 [0x00F6693B+1075515]
+	Ordinal0 [0x00F66AA3+1075875]
+	Ordinal0 [0x00F65A55+1071701]
+	BaseThreadInitThunk [0x760B8494+36]
+	RtlAreBitsSet [0x773941C8+136]
+	RtlAreBitsSet [0x77394198+88]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:209)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:132)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at oldpages.LaunchBrowserUtil.openThisBrowser(LaunchBrowserUtil.java:50)
+	at oldpages.SignInUtility.signIntoCommonWorkspaceWithLoginDotGov(SignInUtility.java:51)
+	at gov.gsa.sam.stepdefinition.FederalHierarchyStepDef.user_has_an_account_in_login_dot_gov_domain(FederalHierarchyStepDef.java:70)
+	at ✽.user has an account in login dot gov domain(src/test/resources/smoke_features/federalHierarchy.feature:9)
+[0m
+
+  @SmokeTest @createDept
+  Scenario: Create department                            [90m# src/test/resources/smoke_features/federalHierarchy.feature:23[0m
+    [31mGiven [0m[31mUser click on above Go to Federal Hierarchy[0m    [90m# FederalHierarchyStepDef.User_click_on_above_Go_to_Federal_Hierarchy()[0m
+      [31mjava.lang.Error: Unresolved compilation problems: 
+	scenario cannot be resolved to a variable
+	scenario cannot be resolved to a variable
+
+	at gov.gsa.sam.stepdefinition.FederalHierarchyStepDef.User_click_on_above_Go_to_Federal_Hierarchy(FederalHierarchyStepDef.java:215)
+	at ✽.User click on above Go to Federal Hierarchy(src/test/resources/smoke_features/federalHierarchy.feature:24)
+[0m
+    [36mAnd [0m[36mThe user click on createdept button[0m              [90m# FederalHierarchyStepDef.The_user_click_on_createdept_button()[0m
+    [36mThen [0m[36mNavigate into create department page[0m            [90m# FederalHierarchyStepDef.Navigate_into_create_department_page()[0m
+    [36mAnd [0m[36mThe user click on cancel button[0m                  [90m# FederalHierarchyStepDef.The_user_click_on_cancel_button()[0m
+    [36mGiven [0m[36mThe user click on first link[0m                   [90m# FederalHierarchyStepDef.The_user_click_on_first_link()[0m
+    [36mThen [0m[36mNavigate into federal hierarchy deparment page[0m  [90m# FederalHierarchyStepDef.Navigate_into_federal_hierarchy_deparment_page()[0m
+    [36mAnd [0m[36mThe click on edit button[0m                         [90m# FederalHierarchyStepDef.The_click_on_edit_button()[0m
+    [36mAnd [0m[36mThe click on edit cancel button[0m                  [90m# FederalHierarchyStepDef.The_click_on_edit_cancel_button()[0m
+    [36mGiven [0m[36mThe user click on create sub tier button[0m       [90m# FederalHierarchyStepDef.The_user_click_on_create_sub_tier_button()[0m
+    [36mThen [0m[36mThe user click on create sub tier cancel button[0m [90m# FederalHierarchyStepDef.The_user_click_on_create_sub_tier_cancel_button()[0m

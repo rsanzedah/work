@@ -1,0 +1,355 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>beta.SAM.gov</title>
+  <base href="/" />
+  <style type="text/css">svg:not(:root).svg-inline--fa {
+  overflow: visible; }
+
+.svg-inline--fa {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -.125em; }
+  .svg-inline--fa.fa-lg {
+    vertical-align: -.225em; }
+  .svg-inline--fa.fa-w-1 {
+    width: 0.0625em; }
+  .svg-inline--fa.fa-w-2 {
+    width: 0.125em; }
+  .svg-inline--fa.fa-w-3 {
+    width: 0.1875em; }
+  .svg-inline--fa.fa-w-4 {
+    width: 0.25em; }
+  .svg-inline--fa.fa-w-5 {
+    width: 0.3125em; }
+  .svg-inline--fa.fa-w-6 {
+    width: 0.375em; }
+  .svg-inline--fa.fa-w-7 {
+    width: 0.4375em; }
+  .svg-inline--fa.fa-w-8 {
+    width: 0.5em; }
+  .svg-inline--fa.fa-w-9 {
+    width: 0.5625em; }
+  .svg-inline--fa.fa-w-10 {
+    width: 0.625em; }
+  .svg-inline--fa.fa-w-11 {
+    width: 0.6875em; }
+  .svg-inline--fa.fa-w-12 {
+    width: 0.75em; }
+  .svg-inline--fa.fa-w-13 {
+    width: 0.8125em; }
+  .svg-inline--fa.fa-w-14 {
+    width: 0.875em; }
+  .svg-inline--fa.fa-w-15 {
+    width: 0.9375em; }
+  .svg-inline--fa.fa-w-16 {
+    width: 1em; }
+  .svg-inline--fa.fa-w-17 {
+    width: 1.0625em; }
+  .svg-inline--fa.fa-w-18 {
+    width: 1.125em; }
+  .svg-inline--fa.fa-w-19 {
+    width: 1.1875em; }
+  .svg-inline--fa.fa-w-20 {
+    width: 1.25em; }
+  .svg-inline--fa.fa-pull-left {
+    margin-right: .3em;
+    width: auto; }
+  .svg-inline--fa.fa-pull-right {
+    margin-left: .3em;
+    width: auto; }
+  .svg-inline--fa.fa-border {
+    height: 1.5em; }
+  .svg-inline--fa.fa-li {
+    width: 2em; }
+  .svg-inline--fa.fa-fw {
+    width: 1.25em; }
+
+.fa-layers svg.svg-inline--fa {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.fa-layers {
+  display: inline-block;
+  height: 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: -.125em;
+  width: 1em; }
+  .fa-layers svg.svg-inline--fa {
+    -webkit-transform-origin: center center;
+            transform-origin: center center; }
+
+.fa-layers-text, .fa-layers-counter {
+  display: inline-block;
+  position: absolute;
+  text-align: center; }
+
+.fa-layers-text {
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transform-origin: center center;
+          transform-origin: center center; }
+
+.fa-layers-counter {
+  background-color: #ff253a;
+  border-radius: 1em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fff;
+  height: 1.5em;
+  line-height: 1;
+  max-width: 5em;
+  min-width: 1.5em;
+  overflow: hidden;
+  padding: .25em;
+  right: 0;
+  text-overflow: ellipsis;
+  top: 0;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: top right;
+          transform-origin: top right; }
+
+.fa-layers-bottom-right {
+  bottom: 0;
+  right: 0;
+  top: auto;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right; }
+
+.fa-layers-bottom-left {
+  bottom: 0;
+  left: 0;
+  right: auto;
+  top: auto;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left; }
+
+.fa-layers-top-right {
+  right: 0;
+  top: 0;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: top right;
+          transform-origin: top right; }
+
+.fa-layers-top-left {
+  left: 0;
+  right: auto;
+  top: 0;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: top left;
+          transform-origin: top left; }
+
+.fa-lg {
+  font-size: 1.33333em;
+  line-height: 0.75em;
+  vertical-align: -.0667em; }
+
+.fa-xs {
+  font-size: .75em; }
+
+.fa-sm {
+  font-size: .875em; }
+
+.fa-1x {
+  font-size: 1em; }
+
+.fa-2x {
+  font-size: 2em; }
+
+.fa-3x {
+  font-size: 3em; }
+
+.fa-4x {
+  font-size: 4em; }
+
+.fa-5x {
+  font-size: 5em; }
+
+.fa-6x {
+  font-size: 6em; }
+
+.fa-7x {
+  font-size: 7em; }
+
+.fa-8x {
+  font-size: 8em; }
+
+.fa-9x {
+  font-size: 9em; }
+
+.fa-10x {
+  font-size: 10em; }
+
+.fa-fw {
+  text-align: center;
+  width: 1.25em; }
+
+.fa-ul {
+  list-style-type: none;
+  margin-left: 2.5em;
+  padding-left: 0; }
+  .fa-ul &gt; li {
+    position: relative; }
+
+.fa-li {
+  left: -2em;
+  position: absolute;
+  text-align: center;
+  width: 2em;
+  line-height: inherit; }
+
+.fa-border {
+  border: solid 0.08em #eee;
+  border-radius: .1em;
+  padding: .2em .25em .15em; }
+
+.fa-pull-left {
+  float: left; }
+
+.fa-pull-right {
+  float: right; }
+
+.fa.fa-pull-left,
+.fas.fa-pull-left,
+.far.fa-pull-left,
+.fal.fa-pull-left,
+.fab.fa-pull-left {
+  margin-right: .3em; }
+
+.fa.fa-pull-right,
+.fas.fa-pull-right,
+.far.fa-pull-right,
+.fal.fa-pull-right,
+.fab.fa-pull-right {
+  margin-left: .3em; }
+
+.fa-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+          animation: fa-spin 2s infinite linear; }
+
+.fa-pulse {
+  -webkit-animation: fa-spin 1s infinite steps(8);
+          animation: fa-spin 1s infinite steps(8); }
+
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+.fa-rotate-90 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg); }
+
+.fa-rotate-180 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg); }
+
+.fa-rotate-270 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg); }
+
+.fa-flip-horizontal {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+  -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1); }
+
+.fa-flip-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(1, -1);
+          transform: scale(1, -1); }
+
+.fa-flip-horizontal.fa-flip-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(-1, -1);
+          transform: scale(-1, -1); }
+
+:root .fa-rotate-90,
+:root .fa-rotate-180,
+:root .fa-rotate-270,
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical {
+  -webkit-filter: none;
+          filter: none; }
+
+.fa-stack {
+  display: inline-block;
+  height: 2em;
+  position: relative;
+  width: 2em; }
+
+.fa-stack-1x,
+.fa-stack-2x {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.svg-inline--fa.fa-stack-1x {
+  height: 1em;
+  width: 1em; }
+
+.svg-inline--fa.fa-stack-2x {
+  height: 2em;
+  width: 2em; }
+
+.fa-inverse {
+  color: #fff; }
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+.sr-only-focusable:active, .sr-only-focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto; }
+</style><link rel="icon" type="image/png" href="assets/favicon.ico" />
+  <script async="" type="text/javascript" ,src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=AGENCY" id="_fed_an_ua_tag"></script>
+<link rel="stylesheet" href="/token-assets/7a3f22f433361c95134cf842683dd1de/styles.css" /><script charset="utf-8" src="/token-assets/7a3f22f433361c95134cf842683dd1de/1.js"></script><script charset="utf-8" src="/token-assets/7a3f22f433361c95134cf842683dd1de/2.js"></script><script charset="utf-8" src="/token-assets/7a3f22f433361c95134cf842683dd1de/5.js"></script><script charset="utf-8" src="/token-assets/7a3f22f433361c95134cf842683dd1de/12.js"></script><script charset="utf-8" src="/token-assets/7a3f22f433361c95134cf842683dd1de/23.js"></script><script charset="utf-8" src="/token-assets/7a3f22f433361c95134cf842683dd1de/21.js"></script><script charset="utf-8" src="/token-assets/7a3f22f433361c95134cf842683dd1de/common.js"></script><script charset="utf-8" src="/token-assets/7a3f22f433361c95134cf842683dd1de/32.js"></script><script charset="utf-8" src="/token-assets/7a3f22f433361c95134cf842683dd1de/11.js"></script><script charset="utf-8" src="/token-assets/7a3f22f433361c95134cf842683dd1de/13.js"></script><script charset="utf-8" src="/token-assets/7a3f22f433361c95134cf842683dd1de/43.js"></script></head>
+<body class="">
+  <app ng-version="6.1.10"><a class="sr-only" tabindex="0" title="Skip navigation" aria-hidden="false">Skip navigation</a><sam-banner><div class="sticky-banner"><div class="m_L-1x"><img alt="US Flag Logo" class="image-wrap" src="assets/img/us_flag_small.png" title="An official website of the United States Government" /><span>An official website of the United States Government   <a>Here's how you know<span class="fa fa-angle-down"></span></a></span><span class="pull-right m_R-1x">This site is in beta and a work in progress   </span></div><!----></div></sam-banner><div style="height: 22px;"> </div><alert-header><!----><div class="ng-star-inserted"><div class="usa-alert usa-alert-error"><div class="usa-alert-body"><!----><div class="title-and-description ng-star-inserted"><h3 class="usa-alert-heading"> testing 2/12 <!----><span class="pull-right ng-star-inserted"><button class="usa-button-dismiss" tabindex="0" aria-hidden="false"><span class="usa-sr-only">Dismiss</span></button></span></h3><p class="usa-alert-text truncate">regression testing</p></div><div class="title-and-description ng-star-inserted"><h3 class="usa-alert-heading"> integration testing 3/5 <!----></h3><p class="usa-alert-text truncate">warning error alert for demo</p></div><div class="alert-link"><a class="usa-nav-link" href="/alerts" tabindex="0" aria-hidden="false">More alerts <i class="fa fa-arrow-circle-o-right"></i></a></div></div></div></div></alert-header><sam-header><header><div header-links=""><sam-header-links class="ng-tns-c0-0"><nav class="sam-ui attached lighter grey borderless menu" aria-label="Header" role="navigation"><div class="sam-ui container"><a class="item" id="element-focus" tabindex="0" href="/" aria-hidden="false"><img class="sam-logo" alt="beta.sam.gov logo." src="assets/img/sam-logo.png" /><span class="usa-sr-only">Go to home page.</span></a><ul class="right menu" aria-label="Main menu"><li class="ng-tns-c0-0"><button class="item" aria-haspopup="menu" id="headerIconMenu" tabindex="0" aria-label="Expandable links menu. Collapsed. " aria-pressed="false" aria-hidden="false"><sam-icon class="ng-tns-c0-0"><sam-fa-icon class="ng-fa-icon"><svg aria-hidden="true" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"/></svg></sam-fa-icon></sam-icon></button><!----></li><li class="ng-tns-c0-0"><button class="item" aria-haspopup="dialog" id="headerIconSearch" tabindex="0" aria-label="Expandable search dialog. Collapsed. " aria-pressed="false" aria-hidden="false"><sam-icon class="ng-tns-c0-0" size="lg"><sam-fa-icon class="ng-fa-icon"><svg aria-hidden="true" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16 fa-lg" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg></sam-fa-icon></sam-icon></button><!----></li><li class="notification-dropdown"><!----><button aria-haspopup="dialog" class="item notification-container ng-tns-c0-0 ng-star-inserted" id="headerIconRequests" tabindex="0" aria-label="0 Request.Collapsed. " aria-pressed="false"><sam-icon class="ng-tns-c0-0" size="lg"><sam-fa-icon class="ng-fa-icon"><svg aria-hidden="true" data-prefix="fas" data-icon="list-alt" class="svg-inline--fa fa-list-alt fa-w-16 fa-lg" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M464 480H48c-26.51 0-48-21.49-48-48V80c0-26.51 21.49-48 48-48h416c26.51 0 48 21.49 48 48v352c0 26.51-21.49 48-48 48zM128 120c-22.091 0-40 17.909-40 40s17.909 40 40 40 40-17.909 40-40-17.909-40-40-40zm0 96c-22.091 0-40 17.909-40 40s17.909 40 40 40 40-17.909 40-40-17.909-40-40-40zm0 96c-22.091 0-40 17.909-40 40s17.909 40 40 40 40-17.909 40-40-17.909-40-40-40zm288-136v-32c0-6.627-5.373-12-12-12H204c-6.627 0-12 5.373-12 12v32c0 6.627 5.373 12 12 12h200c6.627 0 12-5.373 12-12zm0 96v-32c0-6.627-5.373-12-12-12H204c-6.627 0-12 5.373-12 12v32c0 6.627 5.373 12 12 12h200c6.627 0 12-5.373 12-12zm0 96v-32c0-6.627-5.373-12-12-12H204c-6.627 0-12 5.373-12 12v32c0 6.627 5.373 12 12 12h200c6.627 0 12-5.373 12-12z"/></svg></sam-fa-icon></sam-icon><span class="notification-num">0</span></button><!----></li><li class="notification-dropdown"><button class="item notification-container" aria-haspopup="dialog" id="headerIconNotifications" tabindex="0" aria-label="Expandable notifications dialog. Collapsed. " aria-pressed="false" aria-hidden="false"><sam-icon class="ng-tns-c0-0" size="lg"><sam-fa-icon class="ng-fa-icon"><svg aria-hidden="true" data-prefix="fas" data-icon="bell" class="svg-inline--fa fa-bell fa-w-14 fa-lg" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224 512c35.32 0 63.97-28.65 63.97-64H160.03c0 35.35 28.65 64 63.97 64zm215.39-149.71c-19.32-20.76-55.47-51.99-55.47-154.29 0-77.7-54.48-139.9-127.94-155.16V32c0-17.67-14.32-32-31.98-32s-31.98 14.33-31.98 32v20.84C118.56 68.1 64.08 130.3 64.08 208c0 102.3-36.15 133.53-55.47 154.29-6 6.45-8.66 14.16-8.61 21.71.11 16.4 12.98 32 32.1 32h383.8c19.12 0 32-15.6 32.1-32 .05-7.55-2.61-15.27-8.61-21.71z"/></svg></sam-fa-icon></sam-icon><span class="usa-sr-only">5 notifications</span></button><!----></li><li class="ng-tns-c0-0"><!----><button aria-haspopup="menu" class="item ng-tns-c0-0 ng-star-inserted" id="headerIconProfile" tabindex="0" aria-label="Expandable profile dialog. Collapsed. " aria-pressed="false"><sam-icon class="ng-tns-c0-0" size="lg" id="header-profile-icon"><sam-fa-icon class="ng-fa-icon"><svg aria-hidden="true" data-prefix="fas" data-icon="user-circle" class="svg-inline--fa fa-user-circle fa-w-16 fa-lg" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 96c48.6 0 88 39.4 88 88s-39.4 88-88 88-88-39.4-88-88 39.4-88 88-88zm0 344c-58.7 0-111.3-26.6-146.5-68.2 18.8-35.4 55.6-59.8 98.5-59.8 2.4 0 4.8.4 7.1 1.1 13 4.2 26.6 6.9 40.9 6.9 14.3 0 28-2.7 40.9-6.9 2.3-.7 4.7-1.1 7.1-1.1 42.9 0 79.7 24.4 98.5 59.8C359.3 421.4 306.7 448 248 448z"/></svg></sam-fa-icon></sam-icon></button><!----></li><li class="ng-tns-c0-0"><!----><!----></li><li class="ng-tns-c0-0"><!----></li></ul></div></nav><!----></sam-header-links></div></header></sam-header><sam-modal><!----><!----></sam-modal><main class="occupy-page relative" id="main-container" aria-live="assertive"><router-outlet></router-outlet><ng-component class="ng-star-inserted"><div class="container sam-ui grid" grid=""><div row="" class="row"><div columns="2" class="two wide column"></div><div class="create-org-office eight wide column" columns="8"><!----><page class="ng-star-inserted"><div class="occupy-page"><div class="container sam-ui grid stackable" grid=""><!----><div row="" class="row ng-star-inserted"><div columns="12" class="twelve wide column"><!----><sam-breadcrumbs class="ng-star-inserted"><ul class="sam-breadcrumbs"><!----><li class="sam-crumb ng-star-inserted"><!----><!----><a href="/workspace" class="ng-star-inserted">Workspace</a><!----><!----></li><li class="sam-crumb ng-star-inserted"><!----><!----><a href="/fh" class="ng-star-inserted">Federal Hierarchy</a><!----><!----></li><li class="sam-crumb ng-star-inserted"><!----><!----><a href="/fh/500041664" class="ng-star-inserted">Department010280681</a><!----><!----></li><li class="sam-crumb ng-star-inserted"><!----><!----><a href="/fh/500041733" class="ng-star-inserted">Pi18 Ip</a><!----><!----></li><li class="sam-crumb ng-star-inserted"><!----><!----><!----><span class="ng-star-inserted">Request Office</span><!----></li></ul></sam-breadcrumbs></div></div><!----><!----><div class="page-content row" row=""><!----><div class="twelve wide column"><title-and-section id="primary-content"><div><!----><!----><!----></div></title-and-section><div><div class="create-org-border-section"><title-and-section><div><!----><h1 class="sam-ui header ng-star-inserted"><!----><div class="sup header"> FEDERAL HIERARCHY </div> Request Office </h1><!----><!----><div class="ng-star-inserted">Please provide necessary details required for the office</div></div></title-and-section></div><div class="usa-width-one-whole relative"><!----><!----><div class="usa-width-one-whole p_B-6x ng-star-inserted"><div><h2 class="p_T-3x m_B-3x">Office Details</h2><form novalidate="" class="ng-touched ng-dirty ng-valid"><section class="create-org-border-section"><div><sam-text formcontrolname="ofcName" required="" maxlength="35" class="ng-touched ng-dirty ng-valid"><sam-label-wrapper><div><!----><label for="ofcName-input" class="ng-star-inserted"> Office Name <!----><span class="usa-additional_text ng-star-inserted"> Required </span></label><!----><div class="toggle-more ng-star-inserted"><div class="usa-form-hint" id="ofcName-input-hint">Provide the office name. Office name has to be less than 35 characters, including spaces.</div><!----></div><!----><input type="text" id="ofcName-input" maxlength="35" class="ng-valid ng-dirty ng-touched" aria-describedby="ofcName-input-hint" /></div></sam-label-wrapper></sam-text></div></section><div class="create-org-border-section"><h3 class="section-heading">Parent Department and Sub-Tier</h3><!----><div class="ng-star-inserted"><span class="org-type-block">Dept/Ind Agency</span><span class="sam-ui mini label m_T-2x p_T-1x p_B-1x">Department0.10280681</span><div><span class="org-type-block">CGAC</span><span class="sam-ui mini label m_T-2x p_T-1x p_B-1x">11</span></div></div><div class="ng-star-inserted"><span class="org-type-block">Sub-Tier</span><span class="sam-ui mini label m_T-2x p_T-1x p_B-1x">Pi18_ip</span><div><span class="org-type-block">Agency Code</span><span class="sam-ui mini label m_T-2x p_T-1x p_B-1x">18IP</span></div></div></div><div class="create-org-border-section"><sam-date formcontrolname="ofcStartDate" required="" class="ng-touched ng-dirty ng-valid"><sam-fieldset-wrapper><div><fieldset class="usa-fieldset-inputs usa-sans"><!----><legend class="ng-star-inserted"> Start Date <!----><span class="usa-additional_text ng-star-inserted"> Required </span></legend><!----><div aria-live="polite" class="usa-form-hint ng-star-inserted">Provide the start date for the office. The start date has to be current or in the future</div><!----><!----><div class="usa-date-of-birth date-group"><div class="usa-form-group usa-form-group-month"><label for="ofc-start-date_month">Month</label><input class="usa-form-control ng-pristine ng-valid ng-touched" name="date_month" type="number" id="ofc-start-date_month" aria-label="ofc-start-date_month" /></div><div class="usa-form-group usa-form-group-day"><label for="ofc-start-date_day">Day</label><input class="usa-form-control ng-pristine ng-valid ng-touched" name="date_day" type="number" id="ofc-start-date_day" aria-label="ofc-start-date_day" /></div><div class="usa-form-group usa-form-group-year"><label for="ofc-start-date_year">Year</label><input class="usa-form-control ng-pristine ng-valid ng-touched" name="date_year" type="number" id="ofc-start-date_year" aria-label="ofc-start-date_year" /></div></div></fieldset></div></sam-fieldset-wrapper></sam-date></div><div class="create-org-border-section"><sam-date formcontrolname="ofcEndDate" class="ng-untouched ng-pristine ng-valid"><sam-fieldset-wrapper><div><fieldset class="usa-fieldset-inputs usa-sans"><!----><legend class="ng-star-inserted"> End Date <!----></legend><!----><div aria-live="polite" class="usa-form-hint ng-star-inserted">Provide the end date for the office. The end date cannot be earlier than the start date</div><!----><!----><div class="usa-date-of-birth date-group"><div class="usa-form-group usa-form-group-month"><label for="ofc-end-date_month">Month</label><input class="usa-form-control ng-untouched ng-pristine ng-valid" name="date_month" type="number" id="ofc-end-date_month" aria-label="ofc-end-date_month" /></div><div class="usa-form-group usa-form-group-day"><label for="ofc-end-date_day">Day</label><input class="usa-form-control ng-untouched ng-pristine ng-valid" name="date_day" type="number" id="ofc-end-date_day" aria-label="ofc-end-date_day" /></div><div class="usa-form-group usa-form-group-year"><label for="ofc-end-date_year">Year</label><input class="usa-form-control ng-untouched ng-pristine ng-valid" name="date_year" type="number" id="ofc-end-date_year" aria-label="ofc-end-date_year" /></div></div></fieldset></div></sam-fieldset-wrapper></sam-date></div><div class="create-org-border-section"><sam-text formcontrolname="ofcShortName" maxlength="100" class="ng-untouched ng-pristine ng-valid"><sam-label-wrapper><div><!----><label for="ofcShortName-input" class="ng-star-inserted"> Office Short Name <!----></label><!----><!----><input type="text" id="ofcShortName-input" maxlength="100" class="ng-untouched ng-pristine ng-valid" /></div></sam-label-wrapper></sam-text></div><div class="create-org-border-section"><sam-text formcontrolname="ofcRegion" maxlength="100" class="ng-untouched ng-pristine ng-valid"><sam-label-wrapper><div><!----><label for="ofcRegion-input" class="ng-star-inserted"> Office Region <!----></label><!----><div class="toggle-more ng-star-inserted"><div class="usa-form-hint" id="ofcRegion-input-hint">Provide the region code of the office</div><!----></div><!----><input type="text" id="ofcRegion-input" maxlength="100" class="ng-untouched ng-pristine ng-valid" aria-describedby="ofcRegion-input-hint" /></div></sam-label-wrapper></sam-text></div><div class="create-org-border-section"><!----><!----><sam-text formcontrolname="ofcAAC" maxlength="6" class="ng-untouched ng-pristine ng-valid ng-star-inserted"><sam-label-wrapper><div><!----><label for="ofcAAC-input" class="ng-star-inserted"> Office Activity Address Code (AAC) <!----></label><!----><div class="toggle-more ng-star-inserted"><div class="usa-form-hint" id="ofcAAC-input-hint" style="overflow: hidden; height: 2.88em;">Provide an AAC that you would like the office to be associated with. AAC you are requesting may not be the final AAC assigned to the office, as the administrator will validate the AAC for accuracy and assign an AAC for the office. An AAC consists of 6 digits. First 2 digits are the Agency Code (also called as TAS-2 code) derived from a TAS code. Remaining 4 digits can be random alphanumeric (capital letters only) except 'I' and 'O'.</div><!----><div class="ng-star-inserted"><a href="javascript:void(0)"> more </a></div></div><!----><input type="text" id="ofcAAC-input" maxlength="6" class="ng-untouched ng-pristine ng-valid" aria-describedby="ofcAAC-input-hint" /></div></sam-label-wrapper></sam-text></div><section class="create-org-border-section"><h3 class="section-heading">Requestor</h3><div><span class="org-type-block ">Name: </span><span class="sam-ui mini label m_T-2x p_T-1x p_B-1x">Shanthi Dutta</span></div><div><span class="org-type-block ">Email: </span><span class="sam-ui mini label m_T-2x p_T-1x p_B-1x">shanthi.dutta+SuperAdmin@gsa.gov</span></div><div><span class="org-type-block ">Phone Number: </span><span class="sam-ui mini label m_T-2x p_T-1x p_B-1x">5714998137</span></div></section><form class="create-org-border-section ng-untouched ng-pristine ng-valid" novalidate=""><div class="ofc-poc-inline"><h3 class="section-heading">Point of Contact</h3></div><div><input class="federal-hierarchy-org-cbx" id="my-org-cbx" type="checkbox" /><label class="myorg-right-pd" for="my-org-cbx">Use the Requestor as the Point of Contact</label></div><!----><!----><section class="ng-star-inserted"><div><span class="org-type-block ">Name: </span><span class="sam-ui mini label m_T-2x p_T-1x p_B-1x">Shanthi Dutta</span></div><div><span class="org-type-block ">Email: </span><span class="sam-ui mini label m_T-2x p_T-1x p_B-1x">shanthi.dutta+SuperAdmin@gsa.gov</span></div><div><span class="org-type-block ">Phone Number: </span><span class="sam-ui mini label m_T-2x p_T-1x p_B-1x">5714998137</span></div></section></form><div><h2 class="p_T-3x m_B-3x">Office Types</h2><form class="create-org-border-section funding-form ng-untouched ng-pristine ng-valid" novalidate=""><div class="clearfix m_B-2x"> Select the office type/s for this office. Provide the office start date and the end date if available </div><!----><div class="ng-star-inserted"><div class="usa-width-one-half ng-untouched ng-pristine ng-valid"><sam-toggle class="ng-untouched ng-pristine ng-valid"><input class="input-toggle ng-untouched ng-pristine ng-valid" type="checkbox" id="ContractAwards" /><label class="sam-toggle sam-toggle-enabled" for="ContractAwards">Contract Awards</label></sam-toggle><div hidden=""><div class="pd-bt"><sam-date class="ng-untouched ng-pristine ng-valid"><sam-fieldset-wrapper><div><fieldset class="usa-fieldset-inputs usa-sans"><!----><legend class="ng-star-inserted"> Start Date (optional) <!----></legend><!----><div aria-live="polite" class="usa-form-hint ng-star-inserted">The office type start date can be empty or be before the actual office start date, but cannot be after the office end date</div><!----><!----><div class="usa-date-of-birth date-group"><div class="usa-form-group usa-form-group-month"><label for="ContractAwardsStartDate_month">Month</label><input class="usa-form-control ng-untouched ng-pristine ng-valid" name="date_month" type="number" id="ContractAwardsStartDate_month" aria-label="ContractAwardsStartDate_month" /></div><div class="usa-form-group usa-form-group-day"><label for="ContractAwardsStartDate_day">Day</label><input class="usa-form-control ng-untouched ng-pristine ng-valid" name="date_day" type="number" id="ContractAwardsStartDate_day" aria-label="ContractAwardsStartDate_day" /></div><div class="usa-form-group usa-form-group-year"><label for="ContractAwardsStartDate_year">Year</label><input class="usa-form-control ng-untouched ng-pristine ng-valid" name="date_year" type="number" id="ContractAwardsStartDate_year" aria-label="ContractAwardsStartDate_year" /></div></div></fieldset></div></sam-fieldset-wrapper></sam-date></div><div><sam-date class="ng-untouched ng-pristine ng-valid"><sam-fieldset-wrapper><div><fieldset class="usa-fieldset-inputs usa-sans"><!----><legend class="ng-star-inserted"> End Date (optional) <!----></legend><!----><div aria-live="polite" class="usa-form-hint ng-star-inserted">The office type end date can only be after the current date or in the future</div><!----><!----><div class="usa-date-of-birth date-group"><div class="usa-form-group usa-form-group-month"><label for="ContractAwardsEndDate_month">Month</label><input class="usa-form-control ng-untouched ng-pristine ng-valid" name="date_month" type="number" id="ContractAwardsEndDate_month" aria-label="ContractAwardsEndDate_month" /></div><div class="usa-form-group usa-form-group-day"><label for="ContractAwardsEndDate_day">Day</label><input class="usa-form-control ng-untouched ng-pristine ng-valid" name="date_day" type="number" id="ContractAwardsEndDate_day" aria-label="ContractAwardsEndDate_day" /></div><div class="usa-form-group usa-form-group-year"><label for="ContractAwardsEndDate_year">Year</label><input class="usa-form-control ng-untouched ng-pristine ng-valid" name="date_year" type="number" id="ContractAwardsEndDate_year" aria-label="ContractAwardsEndDate_year" /></div></div></fieldset></div></sam-fieldset-wrapper></sam-date></div></div></div></div><div class="m_B-2x usa-grid-full ng-star-inserted"><div class="usa-width-one-half ng-untouched ng-pristine ng-valid"><sam-toggle class="ng-untouched ng-pristine ng-valid"><input class="input-toggle ng-untouched ng-pristine ng-valid" type="checkbox" id="FinancialAssistanceAwards" /><label class="sam-toggle sam-toggle-enabled" for="FinancialAssistanceAwards">Financial Assistance Awards</label></sam-toggle><div hidden=""><div class="pd-bt"><sam-date class="ng-untouched ng-pristine ng-valid"><sam-fieldset-wrapper><div><fieldset class="usa-fieldset-inputs usa-sans"><!----><legend class="ng-star-inserted"> Start Date (optional) <!----></legend><!----><div aria-live="polite" class="usa-form-hint ng-star-inserted">The office type start date can be empty or be before the actual office start date, but cannot be after the office end date</div><!----><!----><div class="usa-date-of-birth date-group"><div class="usa-form-group usa-form-group-month"><label for="FinancialAssistanceAwardsStartDate_month">Month</label><input class="usa-form-control ng-untouched ng-pristine ng-valid" name="date_month" type="number" id="FinancialAssistanceAwardsStartDate_month" aria-label="FinancialAssistanceAwardsStartDate_month" /></div><div class="usa-form-group usa-form-group-day"><label for="FinancialAssistanceAwardsStartDate_day">Day</label><input class="usa-form-control ng-untouched ng-pristine ng-valid" name="date_day" type="number" id="FinancialAssistanceAwardsStartDate_day" aria-label="FinancialAssistanceAwardsStartDate_day" /></div><div class="usa-form-group usa-form-group-year"><label for="FinancialAssistanceAwardsStartDate_year">Year</label><input class="usa-form-control ng-untouched ng-pristine ng-valid" name="date_year" type="number" id="FinancialAssistanceAwardsStartDate_year" aria-label="FinancialAssistanceAwardsStartDate_year" /></div></div></fieldset></div></sam-fieldset-wrapper></sam-date></div><div><sam-date class="ng-untouched ng-pristine ng-valid"><sam-fieldset-wrapper><div><fieldset class="usa-fieldset-inputs usa-sans"><!----><legend class="ng-star-inserted"> End Date (optional) <!----></legend><!----><div aria-live="polite" class="usa-form-hint ng-star-inserted">The office type end date can only be after the current date or in the future</div><!----><!----><div class="usa-date-of-birth date-group"><div class="usa-form-group usa-form-group-month"><label for="FinancialAssistanceAwardsEndDate_month">Month</label><input class="usa-form-control ng-untouched ng-pristine ng-valid" name="date_month" type="number" id="FinancialAssistanceAwardsEndDate_month" aria-label="FinancialAssistanceAwardsEndDate_month" /></div><div class="usa-form-group usa-form-group-day"><label for="FinancialAssistanceAwardsEndDate_day">Day</label><input class="usa-form-control ng-untouched ng-pristine ng-valid" name="date_day" type="number" id="FinancialAssistanceAwardsEndDate_day" aria-label="FinancialAssistanceAwardsEndDate_day" /></div><div class="usa-form-group usa-form-group-year"><label for="FinancialAssistanceAwardsEndDate_year">Year</label><input class="usa-form-control ng-untouched ng-pristine ng-valid" name="date_year" type="number" id="FinancialAssistanceAwardsEndDate_year" aria-label="FinancialAssistanceAwardsEndDate_year" /></div></div></fieldset></div></sam-fieldset-wrapper></sam-date></div></div></div></div><div class="ng-star-inserted"><div class="usa-width-one-half ng-untouched ng-pristine ng-valid"><sam-toggle class="ng-untouched ng-pristine ng-valid"><input class="input-toggle ng-untouched ng-pristine ng-valid" type="checkbox" id="ContractFunding" /><label class="sam-toggle sam-toggle-enabled" for="ContractFunding">Contract Funding</label></sam-toggle><div hidden=""><div class="pd-bt"><sam-date class="ng-untouched ng-pristine ng-valid"><sam-fieldset-wrapper><div><fieldset class="usa-fieldset-inputs usa-sans"><!----><legend class="ng-star-inserted"> Start Date (optional) <!----></legend><!----><div aria-live="polite" class="usa-form-hint ng-star-inserted">The office type start date can be empty or be before the actual office start date, but cannot be after the office end date</div><!----><!----><div class="usa-date-of-birth date-group"><div class="usa-form-group usa-form-group-month"><label for="ContractFundingStartDate_month">Month</label><input class="usa-form-control ng-untouched ng-pristine ng-valid" name="date_month" type="number" id="ContractFundingStartDate_month" aria-label="ContractFundingStartDate_month" /></div><div class="usa-form-group usa-form-group-day"><label for="ContractFundingStartDate_day">Day</label><input class="usa-form-control ng-untouched ng-pristine ng-valid" name="date_day" type="number" id="ContractFundingStartDate_day" aria-label="ContractFundingStartDate_day" /></div><div class="usa-form-group usa-form-group-year"><label for="ContractFundingStartDate_year">Year</label><input class="usa-form-control ng-untouched ng-pristine ng-valid" name="date_year" type="number" id="ContractFundingStartDate_year" aria-label="ContractFundingStartDate_year" /></div></div></fieldset></div></sam-fieldset-wrapper></sam-date></div><div><sam-date class="ng-untouched ng-pristine ng-valid"><sam-fieldset-wrapper><div><fieldset class="usa-fieldset-inputs usa-sans"><!----><legend class="ng-star-inserted"> End Date (optional) <!----></legend><!----><div aria-live="polite" class="usa-form-hint ng-star-inserted">The office type end date can only be after the current date or in the future</div><!----><!----><div class="usa-date-of-birth date-group"><div class="usa-form-group usa-form-group-month"><label for="ContractFundingEndDate_month">Month</label><input class="usa-form-control ng-untouched ng-pristine ng-valid" name="date_month" type="number" id="ContractFundingEndDate_month" aria-label="ContractFundingEndDate_month" /></div><div class="usa-form-group usa-form-group-day"><label for="ContractFundingEndDate_day">Day</label><input class="usa-form-control ng-untouched ng-pristine ng-valid" name="date_day" type="number" id="ContractFundingEndDate_day" aria-label="ContractFundingEndDate_day" /></div><div class="usa-form-group usa-form-group-year"><label for="ContractFundingEndDate_year">Year</label><input class="usa-form-control ng-untouched ng-pristine ng-valid" name="date_year" type="number" id="ContractFundingEndDate_year" aria-label="ContractFundingEndDate_year" /></div></div></fieldset></div></sam-fieldset-wrapper></sam-date></div></div></div></div><div class="m_B-2x usa-grid-full ng-star-inserted"><div class="usa-width-one-half ng-untouched ng-pristine ng-valid"><sam-toggle class="ng-untouched ng-pristine ng-valid"><input class="input-toggle ng-untouched ng-pristine ng-valid" type="checkbox" id="FinancialAssistanceFunding" /><label class="sam-toggle sam-toggle-enabled" for="FinancialAssistanceFunding">Financial Assistance Funding</label></sam-toggle><div hidden=""><div class="pd-bt"><sam-date class="ng-untouched ng-pristine ng-valid"><sam-fieldset-wrapper><div><fieldset class="usa-fieldset-inputs usa-sans"><!----><legend class="ng-star-inserted"> Start Date (optional) <!----></legend><!----><div aria-live="polite" class="usa-form-hint ng-star-inserted">The office type start date can be empty or be before the actual office start date, but cannot be after the office end date</div><!----><!----><div class="usa-date-of-birth date-group"><div class="usa-form-group usa-form-group-month"><label for="FinancialAssistanceFundingStartDate_month">Month</label><input class="usa-form-control ng-untouched ng-pristine ng-valid" name="date_month" type="number" id="FinancialAssistanceFundingStartDate_month" aria-label="FinancialAssistanceFundingStartDate_month" /></div><div class="usa-form-group usa-form-group-day"><label for="FinancialAssistanceFundingStartDate_day">Day</label><input class="usa-form-control ng-untouched ng-pristine ng-valid" name="date_day" type="number" id="FinancialAssistanceFundingStartDate_day" aria-label="FinancialAssistanceFundingStartDate_day" /></div><div class="usa-form-group usa-form-group-year"><label for="FinancialAssistanceFundingStartDate_year">Year</label><input class="usa-form-control ng-untouched ng-pristine ng-valid" name="date_year" type="number" id="FinancialAssistanceFundingStartDate_year" aria-label="FinancialAssistanceFundingStartDate_year" /></div></div></fieldset></div></sam-fieldset-wrapper></sam-date></div><div><sam-date class="ng-untouched ng-pristine ng-valid"><sam-fieldset-wrapper><div><fieldset class="usa-fieldset-inputs usa-sans"><!----><legend class="ng-star-inserted"> End Date (optional) <!----></legend><!----><div aria-live="polite" class="usa-form-hint ng-star-inserted">The office type end date can only be after the current date or in the future</div><!----><!----><div class="usa-date-of-birth date-group"><div class="usa-form-group usa-form-group-month"><label for="FinancialAssistanceFundingEndDate_month">Month</label><input class="usa-form-control ng-untouched ng-pristine ng-valid" name="date_month" type="number" id="FinancialAssistanceFundingEndDate_month" aria-label="FinancialAssistanceFundingEndDate_month" /></div><div class="usa-form-group usa-form-group-day"><label for="FinancialAssistanceFundingEndDate_day">Day</label><input class="usa-form-control ng-untouched ng-pristine ng-valid" name="date_day" type="number" id="FinancialAssistanceFundingEndDate_day" aria-label="FinancialAssistanceFundingEndDate_day" /></div><div class="usa-form-group usa-form-group-year"><label for="FinancialAssistanceFundingEndDate_year">Year</label><input class="usa-form-control ng-untouched ng-pristine ng-valid" name="date_year" type="number" id="FinancialAssistanceFundingEndDate_year" aria-label="FinancialAssistanceFundingEndDate_year" /></div></div></fieldset></div></sam-fieldset-wrapper></sam-date></div></div></div></div></form></div></form></div><div class="usa-width-one-whole m_B-4x"><h2 class="m_T-3x p_T-3x m_B-3x">Office Address</h2><!----><div class="usa-width-one-whole create-org-border-section ng-star-inserted"><sam-address-form-v2 id="MailingAddress(TAC1)"><div class="usa-width-one-whole"><!----><!----><div class="m_T-3x usa-width-one-whole relative ng-star-inserted"><h3 class="usa-width-one-half"><span>Mailing Address (TAC1)</span><!----><i class="p_L-3x fa fa-plus-circle org-address-icons ng-star-inserted" id="Mailing-Address-plus-icon"></i><!----></h3><!----><span class="usa-additional_text ng-star-inserted"> Required </span></div><!----><!----><!----><div class="usa-width-one-whole ng-star-inserted"><sam-text class="usa-width-one-whole ng-untouched ng-pristine ng-valid" maxlength="35"><sam-label-wrapper><div><!----><label for="street1-Mailing-Address" class="ng-star-inserted"> Street address 1 <!----></label><!----><!----><input type="text" id="street1-Mailing-Address" maxlength="35" class="ng-untouched ng-pristine ng-valid" /></div></sam-label-wrapper></sam-text><sam-text class="usa-width-one-whole ng-untouched ng-pristine ng-valid" maxlength="35"><sam-label-wrapper><div><!----><label for="street2-Mailing-Address" class="ng-star-inserted"> Street address 2 <!----></label><!----><!----><input type="text" id="street2-Mailing-Address" maxlength="35" class="ng-untouched ng-pristine ng-valid" /></div></sam-label-wrapper></sam-text><sam-location-component><!----><!----><sam-autocomplete country="" class="ng-untouched ng-pristine ng-valid ng-star-inserted"><div class="sam-autocomplete" sam-click-outside="" sam-tab-outside=""><sam-label-wrapper><div><!----><label for="Mailing-Addresscountry" class="ng-star-inserted"> Country <!----></label><!----><!----><div class="input-container"><input autocomplete="off" type="text" id="Mailing-Addresscountry" tabindex="0" name="country" class="ng-untouched ng-pristine ng-valid" /><!----><!----><span class="reset-icon ng-star-inserted"><span aria-hidden="false" aria-label="Clear input" class="fa fa-times-circle" role="button" tabindex="0"></span></span><!----></div><div class="sam-autocomplete-results"><!----><!----><!----><ul aria-live="assertive" aria-relevant="additions" class="usa-sr-only"></ul></div></div></sam-label-wrapper></div></sam-autocomplete><!----><!----><sam-text class="ng-untouched ng-pristine ng-valid ng-star-inserted"><sam-label-wrapper><div><!----><label for="Mailing-Addresszip" class="ng-star-inserted"> Zip <!----></label><!----><!----><input type="text" id="Mailing-Addresszip" maxlength="524288" class="ng-untouched ng-pristine ng-valid" /></div></sam-label-wrapper></sam-text><!----><!----><sam-loc-autocomplete city="" class="ng-untouched ng-pristine ng-valid ng-star-inserted"><div class="sam-autocomplete" sam-click-outside="" sam-tab-outside=""><sam-label-wrapper><div><!----><label for="Mailing-Addresscity" class="ng-star-inserted"> City <!----></label><!----><!----><div class="input-container"><input autocomplete="off" type="text" id="Mailing-Addresscity" tabindex="0" name="city" class="ng-untouched ng-pristine ng-valid" /><!----><!----><span class="reset-icon ng-star-inserted"><span aria-hidden="false" aria-label="Clear input" class="fa fa-times-circle" role="button" tabindex="0"></span></span><!----></div><div class="sam-autocomplete-results"><!----><!----><!----><ul aria-live="assertive" aria-relevant="additions" class="usa-sr-only"></ul></div></div></sam-label-wrapper></div></sam-loc-autocomplete><!----><!----><sam-autocomplete state="" class="ng-untouched ng-pristine ng-valid ng-star-inserted"><div class="sam-autocomplete" sam-click-outside="" sam-tab-outside=""><sam-label-wrapper><div><!----><label for="Mailing-Addressstate" class="ng-star-inserted"> State/Province <!----></label><!----><!----><div class="input-container"><input autocomplete="off" type="text" id="Mailing-Addressstate" tabindex="0" name="state" class="ng-untouched ng-pristine ng-valid" /><!----><!----><span class="reset-icon ng-star-inserted"><span aria-hidden="false" aria-label="Clear input" class="fa fa-times-circle" role="button" tabindex="0"></span></span><!----></div><div class="sam-autocomplete-results"><!----><!----><!----><ul aria-live="assertive" aria-relevant="additions" class="usa-sr-only"></ul></div></div></sam-label-wrapper></div></sam-autocomplete><!----></sam-location-component></div></div></sam-address-form-v2></div></div><sam-button class="m_T-3x pull-right"><button class="sam-ui button primary" type="button"> Confirm </button></sam-button><button class="usa-button-cancel pull-right m_T-3x m_R-4x">Cancel</button></div><!----></div></div><div class="sam-ui hidden divider"></div></div></div></div></div></page><!----></div><div columns="2" class="two wide column"></div></div></div></ng-component><div></div></main><alert-footer><div aria-live="assertive" class="usa-alert-fixed-footer" focus="true" role="alert"><!----></div></alert-footer><sam-sr-message-footer><div aria-live="assertive" class="usa-alert-fixed-footer" role="alert"><!----></div></sam-sr-message-footer><sam-footer labelname="footer"><footer aria-label="footer-navigation" class="sam-footer" id="sam-footer"><div class="sam-ui padded grid"><div class="lighter grey row"><nav aria-label="footer-nav" class="sam-ui container"><ul class="sam-ui four column stackable vertically very padded grid"><li class="column sam-footer-logo"><a href="http://www.gsa.gov" target="gsa.gov" title="GSA.gov" tabindex="0" aria-hidden="false"><span>General Services Administration Website</span><span aria-hidden="true"> </span><span class="fa fa-external-link fa-sm" aria-hidden="true"></span><span class="usa-sr-only"> (opens in new window)</span></a></li><li class="column"><h2 class="sam-ui header">About Us</h2><ul class="sam-ui list"><li><a href="https://interact.gsa.gov/group/integrated-award-environment-iae-industry-community" target="Explore Our Community" title="Explore Our Community" tabindex="0" aria-hidden="false"> Explore Our Community <i aria-hidden="true" class="fa fa-external-link fa-sm"></i><span class="usa-sr-only"> (opens in new window)</span></a></li><li><a title="Release Notes" href="/release-notes" tabindex="0" aria-hidden="false"> Release Notes </a></li><li><!----></li></ul></li><li class="column"><h2 class="sam-ui header">Partners</h2><ul class="sam-ui list"><li><a href="https://www.acquisition.gov/" target="Acquisition.gov" title="Acquisition.gov" tabindex="0" aria-hidden="false"> Acquisition.gov <span aria-hidden="true"> </span><span class="fa fa-external-link fa-sm" aria-hidden="true"></span><span class="usa-sr-only"> (opens in new window)</span></a></li><li><a href="https://www.usaspending.gov/Pages/Default.aspx" target="USASpending.gov" title="USASpending.gov" tabindex="0" aria-hidden="false"> USASpending.gov <span aria-hidden="true"> </span><span class="fa fa-external-link fa-sm" aria-hidden="true"></span><span class="usa-sr-only"> (opens in new window)</span></a></li><li><a href="http://www.grants.gov/" target="Grants.gov" title="Grants.gov" tabindex="0" aria-hidden="false"> Grants.gov <span aria-hidden="true"> </span><span class="fa fa-external-link fa-sm" aria-hidden="true"></span><span class="usa-sr-only"> (opens in new window)</span></a></li><li><a title="More Partners" href="/help/partners" tabindex="0" aria-hidden="false"> More Partners </a></li></ul></li><li class="column"><h2 class="sam-ui header">Customer Service</h2><ul class="sam-ui list"><li><a title="Learning Center" href="/help/new-to-sam" tabindex="0" aria-hidden="false"> Learning Center </a></li><!----><li class="ng-star-inserted"><a title="Federal Service Desk" href="/help/support"> Federal Service Desk </a></li><li><a title="Resources" href="/help/resources" tabindex="0" aria-hidden="false"> Resources </a></li><li><a href="https://www.gsa.gov/reference/freedom-of-information-act-foia" target="Freedom of Information Act" title="Freedom of Information Act" tabindex="0" aria-hidden="false"> Freedom of Information Act <i aria-hidden="true" class="fa fa-external-link fa-sm"></i><span class="usa-sr-only"> (opens in new window)</span></a></li></ul></li></ul><p> This is a U.S. General Services Administration Federal Government computer system that is <strong>"FOR OFFICIAL USE ONLY."</strong> This system is subject to monitoring. Individuals found performing unauthorized activities are subject to disciplinary action including criminal prosecution. </p><div class="text-center build-info"> ● Monday, Mar 18, 2019, 5:38 PM</div></nav></div></div></footer></sam-footer><sam-feedback><div class="sam-feedback"><sam-modal><!----><!----></sam-modal><!----><!----></div></sam-feedback></app>
+<script type="text/javascript" src="/token-assets/7a3f22f433361c95134cf842683dd1de/runtime.js"></script><script type="text/javascript" src="/token-assets/7a3f22f433361c95134cf842683dd1de/polyfills.js"></script><script type="text/javascript" src="/token-assets/7a3f22f433361c95134cf842683dd1de/scripts.js"></script><script type="text/javascript" src="/token-assets/7a3f22f433361c95134cf842683dd1de/main.js"></script>
+
+</body></html>

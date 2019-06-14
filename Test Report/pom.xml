@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>gov.gsa.automation</groupId>
+	<artifactId>gsa-automation-serenity</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<name>gsa-automation-serenity</name>
+	<!-- FIXME change it to the project's website -->
+	<url>http://www.example.com</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java.version>1.8</java.version>
+		<serenity.version>1.9.17</serenity.version>
+		<serenity.maven.version>1.9.16</serenity.maven.version>
+		<serenity.cucumber.version>1.9.7</serenity.cucumber.version>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+
+<dependencies>
+	<dependency>
+		<groupId>org.slf4j</groupId>
+		<artifactId>slf4j-simple</artifactId>
+		<version>1.7.7</version>
+	</dependency>
+	<dependency>
+           <groupId>javax.mail</groupId>
+           <artifactId>javax.mail-api</artifactId>
+           <version>1.6.2</version>
+       </dependency>
+       <!-- https://mvnrepository.com/artifact/com.sun.mail/javax.mail -->
+       <dependency>
+           <groupId>com.sun.mail</groupId>
+           <artifactId>javax.mail</artifactId>
+           <version>1.6.2</version>
+       </dependency>
+
+
+       <!-- http://repo1.maven.org/maven2/javax/mail/mail/1.4.7/mail-1.4.7.jar -->
+       <dependency>
+           <groupId>javax.mail</groupId>
+           <artifactId>mail</artifactId>
+           <version>1.4.7</version>
+       </dependency>
+	<dependency>
+		<groupId>net.serenity-bdd</groupId>
+		<artifactId>serenity-core</artifactId>
+		<version>${serenity.version}</version>
+	</dependency>
+	<dependency>
+		<groupId>net.serenity-bdd</groupId>
+		<artifactId>serenity-junit</artifactId>
+		<version>${serenity.version}</version>
+		<scope>test</scope>
+	</dependency>
+	<dependency>
+		<groupId>net.serenity-bdd</groupId>
+		<artifactId>serenity-screenplay</artifactId>
+		<version>${serenity.version}</version>
+	</dependency>
+	<dependency>
+		<groupId>net.serenity-bdd</groupId>
+		<artifactId>serenity-screenplay-webdriver</artifactId>
+		<version>${serenity.version}</version>
+	</dependency>
+	<dependency>
+		<groupId>net.serenity-bdd</groupId>
+		<artifactId>serenity-cucumber</artifactId>
+		<version>${serenity.cucumber.version}</version>
+	</dependency>
+	<dependency>
+		<groupId>junit</groupId>
+		<artifactId>junit</artifactId>
+		<version>4.12</version>
+		<scope>test</scope>
+	</dependency>
+	<dependency>
+		<groupId>org.assertj</groupId>
+		<artifactId>assertj-core</artifactId>
+		<version>3.6.2</version>
+		<scope>test</scope>
+	</dependency>
+	<dependency>
+		<groupId>org.hamcrest</groupId>
+		<artifactId>hamcrest-all</artifactId>
+		<version>1.3</version>
+		<scope>test</scope>
+	</dependency>
+	<dependency>
+		<groupId>org.seleniumhq.selenium</groupId>
+		<artifactId>selenium-remote-driver</artifactId>
+		<version>3.11.0</version>
+	</dependency>
+	<dependency>
+		<groupId>org.seleniumhq.selenium</groupId>
+		<artifactId>selenium-chrome-driver</artifactId>
+		<version>3.11.0</version>
+	</dependency>
+	<dependency>
+		<groupId>org.seleniumhq.selenium</groupId>
+		<artifactId>selenium-firefox-driver</artifactId>
+		<version>3.11.0</version>
+	</dependency>
+	<dependency>
+		<groupId>org.seleniumhq.selenium</groupId>
+		<artifactId>selenium-ie-driver</artifactId>
+		<version>3.11.0</version>
+	</dependency>
+	<dependency>
+		<groupId>org.seleniumhq.selenium</groupId>
+		<artifactId>selenium-safari-driver</artifactId>
+		<version>3.11.0</version>
+	</dependency>
+	<dependency>
+		<groupId>com.github.detro</groupId>
+		<artifactId>phantomjsdriver</artifactId>
+		<version>1.2.0</version>
+	</dependency>
+
+	<dependency>
+		<groupId>com.google.oauth-client</groupId>
+		<artifactId>google-oauth-client-jetty</artifactId>
+		<version>1.23.0</version>
+	</dependency>
+	<dependency>
+		<groupId>com.google.api-client</groupId>
+		<artifactId>google-api-client</artifactId>
+		<version>1.23.0</version>
+	</dependency>
+	<dependency>
+		<groupId>com.google.apis</groupId>
+		<artifactId>google-api-services-gmail</artifactId>
+		<version>v1-rev89-1.23.0</version>
+	</dependency>
+
+	<dependency>
+		<groupId>com.deque</groupId>
+		<artifactId>axe-selenium</artifactId>
+		<version>2.1</version>
+	</dependency>
+
+	<dependency>
+		<groupId>com.saucelabs</groupId>
+		<artifactId>saucerest</artifactId>
+		<version>1.0.38</version>
+	</dependency>
+	<dependency>
+		<groupId>com.saucelabs</groupId>
+		<artifactId>sauce_junit</artifactId>
+		<version>2.1.20</version>
+		<scope>test</scope>
+	</dependency>
+</dependencies>
+
+	<build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.20</version>
+        <configuration>
+          <includes>
+            <include>GlossaryRunner.java</include>
+          </includes>
+          <excludes>
+            <exclude>**/*Runner.java</exclude>
+          </excludes>
+	    
+          <testFailureIgnore>true</testFailureIgnore>
+          <systemPropertyVariables>
+            <webdriver.base.url>${webdriver.base.url}</webdriver.base.url>
+          </systemPropertyVariables>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <groupId>net.serenity-bdd.maven.plugins</groupId>       
+        <artifactId>serenity-maven-plugin</artifactId>
+     <version>${serenity.maven.version}</version>
+        <executions>
+          <execution>
+            <id>serenity-reports</id>
+            <phase>post-integration-test</phase>             
+            <goals>
+              <goal>aggregate</goal>                       
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+
+    </plugins>
+  </build> 
+</project>

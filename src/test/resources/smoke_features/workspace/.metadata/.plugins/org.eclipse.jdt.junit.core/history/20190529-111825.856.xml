@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CucumberTestSuite" project="rolemangement-selenium" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="gov.gsa.sam.rms.stepdefinition.CucumberTestSuite" time="90.835">
+    <testsuite name="Feature: Email functionality" time="90.835">
+      <testcase name="top down role assignment should sent emails to both the granter and grantee" classname="Email functionality" time="90.835">
+        <error>java.lang.NullPointerException&#13;
+	at gov.gsa.sam.rms.utilities.LaunchBrowserUtil.switchTabs(LaunchBrowserUtil.java:357)&#13;
+	at gov.gsa.sam.rms.stepdefinition.EmailStep._3_assistance_admin_should_receive_proper_email_message(EmailStep.java:259)&#13;
+	at ✽._3 assistance admin should receive proper email message(src/test/resources/features/Email.feature:43)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

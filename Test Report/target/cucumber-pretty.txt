@@ -1,0 +1,92 @@
+@FeedBack
+Feature: FeedBack
+
+  @FeedBack @Scenario
+  Scenario: Submit the Provide feedback without filling the form from the home page [90m# src/test/resources/smoke_features/feedback.feature:5[0m
+    [32mGiven [0m[32mEnvironment [0m[32m[1mCOMP_HOME_PAGE[0m                                                [90m# FeddBackStep.Environment(String)[0m
+    [32mAnd [0m[32mClick on provide feed back button[0m                                           [90m# FeddBackStep.Click_on_provide_feed_back_button()[0m
+    [32mThen [0m[32mCheck the three question[0m                                                   [90m# FeddBackStep.Check_the_three_question()[0m
+    [32mThen [0m[32muser click on submit button[0m                                                [90m# FeddBackStep.user_click_on_submit_button()[0m
+    [32mAnd [0m[32mClick on learning center link[0m                                               [90m# FeddBackStep.Click_on_learn_center_link()[0m
+    [32mAnd [0m[32mNavigate into New to beta.SAM.gov page[0m                                      [90m# FeddBackStep.Navigate_into_New_to_betaSAMgov_page()[0m
+    [32mAnd [0m[32mBrowser close[0m                                                               [90m# FeddBackStep.Browser_close()[0m
+
+  @FeedBack @Scenario
+  Scenario: Cancel the Provide feedback without filling the form from the home page [90m# src/test/resources/smoke_features/feedback.feature:15[0m
+    [32mGiven [0m[32mEnvironment [0m[32m[1mCOMP_HOME_PAGE[0m                                                [90m# FeddBackStep.Environment(String)[0m
+    [32mAnd [0m[32mClick on provide feed back button[0m                                           [90m# FeddBackStep.Click_on_provide_feed_back_button()[0m
+    [32mThen [0m[32mUser click on cancel button[0m                                                [90m# FeddBackStep.User_click_on_cancel_button()[0m
+    [32mAnd [0m[32mClick on learning center link[0m                                               [90m# FeddBackStep.Click_on_learn_center_link()[0m
+    [32mAnd [0m[32mNavigate into New to beta.SAM.gov page[0m                                      [90m# FeddBackStep.Navigate_into_New_to_betaSAMgov_page()[0m
+    [32mAnd [0m[32mBrowser close[0m                                                               [90m# FeddBackStep.Browser_close()[0m
+
+  @FeedBack @Scenario1
+  Scenario: Cancel the Provide feedback by filling one answer in the form from the home page [90m# src/test/resources/smoke_features/feedback.feature:24[0m
+    [32mGiven [0m[32mEnvironment [0m[32m[1mCOMP_HOME_PAGE[0m                                                         [90m# FeddBackStep.Environment(String)[0m
+    [32mAnd [0m[32mClick on provide feed back button[0m                                                    [90m# FeddBackStep.Click_on_provide_feed_back_button()[0m
+    [32mAnd [0m[32mUser enter like or dislike about beta.sam.gov[0m                                        [90m# FeddBackStep.User_enter_like_or_dislike_about_beta_sam_gov()[0m
+    [32mThen [0m[32mUser click on cancel button[0m                                                         [90m# FeddBackStep.User_click_on_cancel_button()[0m
+    [32mAnd [0m[32mClick on learning center link[0m                                                        [90m# FeddBackStep.Click_on_learn_center_link()[0m
+    [32mThen [0m[32mClick cancel button in alert warning[0m                                                [90m# FeddBackStep.click_cancel_button_in_alert_warning()[0m
+    [32mAnd [0m[32mClick on learning center link[0m                                                        [90m# FeddBackStep.Click_on_learn_center_link()[0m
+    [32mThen [0m[32mClick on confirm button[0m                                                             [90m# FeddBackStep.Click_on_confirm_button()[0m
+    [32mAnd [0m[32mNavigate into New to beta.SAM.gov page[0m                                               [90m# FeddBackStep.Navigate_into_New_to_betaSAMgov_page()[0m
+    [32mAnd [0m[32mBrowser close[0m                                                                        [90m# FeddBackStep.Browser_close()[0m
+
+  @FeedBack @Scenario2
+  Scenario: Provide feedback from the home page                    [90m# src/test/resources/smoke_features/feedback.feature:37[0m
+    [32mGiven [0m[32mEnvironment [0m[32m[1mCOMP_HOME_PAGE[0m                               [90m# FeddBackStep.Environment(String)[0m
+    [32mAnd [0m[32mClick on provide feed back button[0m                          [90m# FeddBackStep.Click_on_provide_feed_back_button()[0m
+    [32mAnd [0m[32mUser enter like or dislike about beta.sam.gov[0m              [90m# FeddBackStep.User_enter_like_or_dislike_about_beta_sam_gov()[0m
+    [32mAnd [0m[32mUser enter what change or improvements would you suggest[0m   [90m# FeddBackStep.User_enter_what_change_or_improvements_would_you_suggest()[0m
+    [32mThen [0m[32mCheck first radio button enabled[0m                          [90m# FeddBackStep.Check_first_radio_button_enabled()[0m
+    [32mAnd [0m[32mmay we contact you if we have question about your feedback[0m [90m# FeddBackStep.User_select_may_we_contact_you_if_we_have_question_about_your_feedback()[0m
+    [32mThen [0m[32mCheck second radio button enabled[0m                         [90m# FeddBackStep.Check_second_radio_button_enabled()[0m
+    [32mAnd [0m[32mUser enter email id[0m                                        [90m# FeddBackStep.User_enter_email_id()[0m
+    [32mThen [0m[32muser click on submit button[0m                               [90m# FeddBackStep.user_click_on_submit_button()[0m
+    [32mAnd [0m[32mBrowser close[0m                                              [90m# FeddBackStep.Browser_close()[0m
+
+  @FeedBack @Scenario3
+  Scenario: Submit provide feedback without filling one answer from the learning center [90m# src/test/resources/smoke_features/feedback.feature:51[0m
+    [32mGiven [0m[32mEnvironment [0m[32m[1mCOMP_HOME_PAGE[0m                                                    [90m# FeddBackStep.Environment(String)[0m
+    [32mAnd [0m[32mClick on learning center link[0m                                                   [90m# FeddBackStep.Click_on_learn_center_link()[0m
+    [32mAnd [0m[32mClick on the provide feed back button[0m                                           [90m# FeddBackStep.Click_provide_feed_back_button()[0m
+    [32mAnd [0m[32mUser enter what change or improvements would you suggest[0m                        [90m# FeddBackStep.User_enter_what_change_or_improvements_would_you_suggest()[0m
+    [32mAnd [0m[32mmay we contact you if we have question about your feedback[0m                      [90m# FeddBackStep.User_select_may_we_contact_you_if_we_have_question_about_your_feedback()[0m
+    [32mAnd [0m[32mUser enter email id[0m                                                             [90m# FeddBackStep.User_enter_email_id()[0m
+    [32mThen [0m[32muser click on submit button[0m                                                    [90m# FeddBackStep.user_click_on_submit_button()[0m
+    [32mAnd [0m[32mBrowser close[0m                                                                   [90m# FeddBackStep.Browser_close()[0m
+
+  @FeedBack @Scenario4
+  Scenario: confirm provide feedback from the learning center      [90m# src/test/resources/smoke_features/feedback.feature:63[0m
+    [32mGiven [0m[32mEnvironment [0m[32m[1mCOMP_HOME_PAGE[0m                               [90m# FeddBackStep.Environment(String)[0m
+    [32mAnd [0m[32mClick on learning center link[0m                              [90m# FeddBackStep.Click_on_learn_center_link()[0m
+    [32mAnd [0m[32mClick on the provide feed back button[0m                      [90m# FeddBackStep.Click_provide_feed_back_button()[0m
+    [32mAnd [0m[32mUser enter like or dislike about beta.sam.gov[0m              [90m# FeddBackStep.User_enter_like_or_dislike_about_beta_sam_gov()[0m
+    [32mAnd [0m[32mUser enter what change or improvements would you suggest[0m   [90m# FeddBackStep.User_enter_what_change_or_improvements_would_you_suggest()[0m
+    [32mAnd [0m[32mmay we contact you if we have question about your feedback[0m [90m# FeddBackStep.User_select_may_we_contact_you_if_we_have_question_about_your_feedback()[0m
+    [32mAnd [0m[32mUser enter email id[0m                                        [90m# FeddBackStep.User_enter_email_id()[0m
+    [32mThen [0m[32muser click on submit button[0m                               [90m# FeddBackStep.user_click_on_submit_button()[0m
+    [32mAnd [0m[32mBrowser close[0m                                              [90m# FeddBackStep.Browser_close()[0m
+
+  @FeedBack @Scenario4
+  Scenario: Cancel the provide feedback from the learning center    [90m# src/test/resources/smoke_features/feedback.feature:77[0m
+    [32mGiven [0m[32mEnvironment [0m[32m[1mCOMP_HOME_PAGE[0m                                [90m# FeddBackStep.Environment(String)[0m
+    [32mAnd [0m[32mClick on learning center link[0m                               [90m# FeddBackStep.Click_on_learn_center_link()[0m
+    [32mAnd [0m[32mClick on the provide feed back button[0m                       [90m# FeddBackStep.Click_provide_feed_back_button()[0m
+    [32mAnd [0m[32mUser enter like or dislike about beta.sam.gov[0m               [90m# FeddBackStep.User_enter_like_or_dislike_about_beta_sam_gov()[0m
+    [32mAnd [0m[32mUser enter what change or improvements would you suggest[0m    [90m# FeddBackStep.User_enter_what_change_or_improvements_would_you_suggest()[0m
+    [32mAnd [0m[32mmay we contact you if we have question about your feedback[0m  [90m# FeddBackStep.User_select_may_we_contact_you_if_we_have_question_about_your_feedback()[0m
+    [32mAnd [0m[32mUser enter email id[0m                                         [90m# FeddBackStep.User_enter_email_id()[0m
+    [32mThen [0m[32mUser click on cancel button[0m                                [90m# FeddBackStep.User_click_on_cancel_button()[0m
+    [32mThen [0m[32mCheck Warning you have feedback that has not been sumitted[0m [90m# FeddBackStep.Check_Warning_you_have_feedback_that_has_not_been_sumitted()[0m
+    [32mAnd [0m[32mClick on date sets link[0m                                     [90m# FeddBackStep.Click_on_date_sets_link()[0m
+    [32mThen [0m[32mClick on confirm button[0m                                    [90m# FeddBackStep.Click_on_confirm_button()[0m
+
+  @FeedBack @Scenario6
+  Scenario: Click on Form Approved OMB#3090-0297 Exp. Date 07/31/2019 from Home page [90m# src/test/resources/smoke_features/feedback.feature:92[0m
+    [32mGiven [0m[32mEnvironment [0m[32m[1mCOMP_HOME_PAGE[0m                                                 [90m# FeddBackStep.Environment(String)[0m
+    [32mAnd [0m[32mClick on learning center link[0m                                                [90m# FeddBackStep.Click_on_learn_center_link()[0m
+    [32mAnd [0m[32mClick on the provide feed back button[0m                                        [90m# FeddBackStep.Click_provide_feed_back_button()[0m
+    [32mThen [0m[32mClick on the provide feed back link[0m                                         [90m# FeddBackStep.Click_on_the_provide_feed_back_link()[0m
+    [32mThen [0m[32mNavigate to policies page[0m                                                   [90m# FeddBackStep.Navigate_to_policies_page()[0m

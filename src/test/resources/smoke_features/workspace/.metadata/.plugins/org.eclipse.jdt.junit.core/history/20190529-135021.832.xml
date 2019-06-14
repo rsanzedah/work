@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CucumberTestSuite" project="rolemangement-selenium" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="gov.gsa.sam.rms.stepdefinition.CucumberTestSuite" time="207.868">
+    <testsuite name="Feature: Role Request With Feeds" time="207.868">
+      <testcase name="both RA and assistance user should see feeds updated during approval of a request" classname="Role Request With Feeds" time="207.868"/>
+    </testsuite>
+  </testsuite>
+</testrun>

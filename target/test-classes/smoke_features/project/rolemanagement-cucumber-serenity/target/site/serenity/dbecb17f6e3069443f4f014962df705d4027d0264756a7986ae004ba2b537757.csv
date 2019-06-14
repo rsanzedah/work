@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Account Details validation and API key functionality","only the latest otp should work to validate api key generation in profile page","SUCCESS","2019-05-29T18:30:14.246-04:00[America/New_York]","0.0","153.08"
+"Account Details validation and API key functionality","correct otp should work to validate api key generation in profile page","SUCCESS","2019-05-29T18:32:47.339-04:00[America/New_York]","0.0","113.44"
+"Account Details validation and API key functionality","newly signedup fed user should see request api button instead of show apikey in profile page","SUCCESS","2019-05-29T18:34:40.784-04:00[America/New_York]","0.0","187.52"
+"Account Details validation and API key functionality","otp for apikey generation should be valid for twenty minutes only","SUCCESS","2019-05-29T18:37:48.303-04:00[America/New_York]","0.0","1134.61"
+"Account Details validation and API key functionality","correct otp should work to validate api key generation in profile page for nonfed","SUCCESS","2019-05-29T18:56:42.912-04:00[America/New_York]","0.0","110.21"

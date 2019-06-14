@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Validate error meaasage in sub tier page","This field cannot be empty","SUCCESS","2019-03-15T16:04:39.073-04:00[America/New_York]","0.0","14.97"
+"Validate error meaasage in sub tier page","Date field","FAILURE","2019-03-15T16:07:31.433-04:00[America/New_York]","0.0","8.86"

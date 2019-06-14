@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CucumberTestSuite" project="rolemangement-selenium" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="gov.gsa.sam.rms.stepdefinition.CucumberTestSuite" time="7.869">
+    <testsuite name="Feature: Login functionality" time="7.869">
+      <testcase name="dra logs into common Worspace page" classname="Login functionality" time="7.869">
+        <error>org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 75
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'I04TCC-GF3X046', ip: '172.28.16.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00D67DF3+1474035]
+	Ordinal0 [0x00CE07D1+919505]
+	Ordinal0 [0x00C7CB43+510787]
+	Ordinal0 [0x00C11B0F+72463]
+	Ordinal0 [0x00C0E3F3+58355]
+	Ordinal0 [0x00C30CE4+199908]
+	Ordinal0 [0x00C3069D+198301]
+	Ordinal0 [0x00C2EECB+192203]
+	Ordinal0 [0x00C15FF6+90102]
+	Ordinal0 [0x00C1765A+95834]
+	Ordinal0 [0x00C17554+95572]
+	GetHandleVerifier [0x00EC231C+1249612]
+	GetHandleVerifier [0x00E11575+525221]
+	GetHandleVerifier [0x00E11310+524608]
+	Ordinal0 [0x00D75D28+1531176]
+	GetHandleVerifier [0x00E11D4A+527226]
+	Ordinal0 [0x00CF75F6+1013238]
+	Ordinal0 [0x00CF746F+1012847]
+	Ordinal0 [0x00D0365B+1062491]
+	Ordinal0 [0x00D0379F+1062815]
+	Ordinal0 [0x00D02745+1058629]
+	BaseThreadInitThunk [0x77668674+36]
+	RtlGetAppContainerNamedObjectPath [0x77C85E17+311]
+	RtlGetAppContainerNamedObjectPath [0x77C85DE7+263]
+&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)&#13;
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)&#13;
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)&#13;
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)&#13;
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)&#13;
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)&#13;
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)&#13;
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)&#13;
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)&#13;
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)&#13;
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)&#13;
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)&#13;
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:138)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:142)&#13;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:170)&#13;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:159)&#13;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:148)&#13;
+	at gov.gsa.sam.rms.utilities.LaunchBrowserUtil.openThisBrowser(LaunchBrowserUtil.java:50)&#13;
+	at gov.gsa.sam.rms.utilities.SignInUtility.signIntoCommonWorkspaceWithLoginDotGov(SignInUtility.java:50)&#13;
+	at gov.gsa.sam.rms.utilities.SignInUtility.signIntoWorkspace(SignInUtility.java:89)&#13;
+	at gov.gsa.sam.rms.stepdefinition.LoginStep.user_already_has_dra_account_setup_and_enters_and(LoginStep.java:45)&#13;
+	at ✽._1 user already has dra account setup and enters "email" and "password"(src/test/resources/features/Login.feature:26)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

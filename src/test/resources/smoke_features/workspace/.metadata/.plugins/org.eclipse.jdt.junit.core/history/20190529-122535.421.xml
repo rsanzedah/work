@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CucumberTestSuite" project="rolemangement-selenium" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="gov.gsa.sam.rms.stepdefinition.CucumberTestSuite" time="154.313">
+    <testsuite name="Feature: Account Details validation and API key functionality" time="154.313">
+      <testcase name="only the latest otp should work to validate api key generation in profile page" classname="Account Details validation and API key functionality" time="154.313"/>
+    </testsuite>
+  </testsuite>
+</testrun>
